@@ -1,13 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-[CreateAssetMenu(fileName = "New Node", menuName = "Node")]
-public class Node : ScriptableObject
+public class Node
 {
-    [SerializeField] string name;
-    [SerializeField] int index;
+    public Dialogue[] dialogues;
 
-    [SerializeField][TextArea] string[] Texts;
+
+    public NodeDatas nextNode;
+    public NodeDatas[] choosabledNodes;
+
+    public void SettingUp(NodeDatas node)
+    {
+        dialogues = node.dialogues;
+
+        nextNode = node.nextNode;
+        choosabledNodes = node.choosabledNodes;
+    }
 }

@@ -12,6 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae3c0a0832fe7934aa04c79f07cb341d, type: 3}
   m_Name: FIn
   m_EditorClassIdentifier: 
-  name: 
-  index: 0
-  Texts: []
+  dialogues:
+  - speaker: Nolie
+    Sentences:
+    - Hello, I'm Nolie !
+    - How are U MOTHER FUCKER ?
+  - speaker: Mum
+    Sentences:
+    - Hooo, NOLIE ! Watch your speech !
+  nextNode: {fileID: 11400000}
+  choosabledNodes:
+  - {fileID: 0}
+  - {fileID: 0}
