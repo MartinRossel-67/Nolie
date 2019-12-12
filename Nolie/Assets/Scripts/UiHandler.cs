@@ -19,6 +19,7 @@ public class UiHandler : MonoBehaviour
             speakerField.text = _speaker;
             curentSpeaker = _speaker;
         }
+        StopAllCoroutines();
         StartCoroutine(TypeSentence(_sentence));
     }
 

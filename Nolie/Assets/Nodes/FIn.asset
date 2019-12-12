@@ -20,7 +20,4 @@ MonoBehaviour:
   - speaker: Mum
     Sentences:
     - Hooo, NOLIE ! Watch your speech !
-  nextNode: {fileID: 11400000}
-  choosabledNodes:
-  - {fileID: 0}
-  - {fileID: 0}
+  nextNode: {fileID: 11400000, guid: 8d6935ef4a4c3ed48ba029d467fe50f3, type: 2}

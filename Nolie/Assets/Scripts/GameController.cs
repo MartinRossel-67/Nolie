@@ -19,7 +19,7 @@ public class GameController : MonoBehaviour
     void Start()
     {
         uiHandler = GetComponent<UiHandler>();
-        
+
         curentNode.SettingUp(firstNode);
         NextSentence();
     }
@@ -27,21 +27,19 @@ public class GameController : MonoBehaviour
 
     public void NextSentence()
     {
-        curentSentence ++;
+        curentSentence++;
         if (curentNode.dialogues[curentDialogue].Sentences.Length > curentSentence)
         {
-            uiHandler.UpdateTextField(firstNode.dialogues[curentDialogue].speaker,
-                                      firstNode.dialogues[curentDialogue].Sentences[curentSentence]);
+            UpdateTextField();
         }
         else
         {
             curentSentence = 0;
-            curentDialogue ++;
+            curentDialogue++;
 
             if (curentNode.dialogues.Length > curentDialogue)
             {
-                uiHandler.UpdateTextField(firstNode.dialogues[curentDialogue].speaker,
-                                          firstNode.dialogues[curentDialogue].Sentences[curentSentence]);
+                UpdateTextField();
             }
 
             else
@@ -50,8 +48,7 @@ public class GameController : MonoBehaviour
                 curentDialogue = 0;
                 NextNode();
 
-                uiHandler.UpdateTextField(firstNode.dialogues[curentDialogue].speaker,
-                                          firstNode.dialogues[curentDialogue].Sentences[curentSentence]);
+                UpdateTextField();
             }
         }
     }
@@ -59,7 +56,24 @@ public class GameController : MonoBehaviour
 
     void NextNode()
     {
-        nextNodeDatas = curentNode.nextNode;
-        curentNode.SettingUp(nextNodeDatas);
+        curentNode.SettingUp(curentNode.nextNode);
+    }
+
+
+    public void NewNode(NodeDatas newNode)
+    {
+        curentSentence = 0;
+        curentDialogue = 0;
+
+        curentNode.SettingUp(newNode);
+
+        UpdateTextField();
+    }
+
+
+    void UpdateTextField()
+    {
+        uiHandler.UpdateTextField(curentNode.dialogues[curentDialogue].speaker,
+                                curentNode.dialogues[curentDialogue].Sentences[curentSentence]);
     }
 }

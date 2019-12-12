@@ -12,5 +12,4 @@ public class NodeDatas : ScriptableObject
     [Header("Nodes")]
     [Space(10)]
     [SerializeField] public NodeDatas nextNode;
-    [SerializeField] public NodeDatas[] choosabledNodes = new NodeDatas[2];
 }
