@@ -5,11 +5,13 @@ using UnityEngine;
 public class Node
 {
     public Dialogue[] dialogues;
-    public NodeDatas nextNode;
+    public bool kigurumiChoice;
+    public NodeDatas[] nextNodes;
 
-    public void SettingUp(NodeDatas node)
+    public void SettingUp(NodeDatas nodeChoices)
     {
-        dialogues = node.dialogues;
-        nextNode = node.nextNode;
+        dialogues = nodeChoices.dialogues;
+        kigurumiChoice = nodeChoices.kigurumiChoice;
+        nextNodes = nodeChoices.nextNodes;
     }
 }

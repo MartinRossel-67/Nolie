@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae3c0a0832fe7934aa04c79f07cb341d, type: 3}
-  m_Name: Start
+  m_Name: Loup
   m_EditorClassIdentifier: 
   dialogues:
-  - speaker: Test
+  - speaker: Nolie
     Sentences:
-    - "C'est un test.\t"
-    - Rien de Plus.
-    - "Qu'es que tu attends pour passer \xE0 la slide suivante ???"
-  nextNode: {fileID: 11400000, guid: b4485b1ada4d92048991413601d49156, type: 2}
+    - AaaOUUUUUUUUUUUUUUUHHH !!!
+    - Et maintenant ?
+  kigurumiChoice: 0
+  nextNodes:
+  - {fileID: 11400000, guid: 8d6935ef4a4c3ed48ba029d467fe50f3, type: 2}
