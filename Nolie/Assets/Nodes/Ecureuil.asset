@@ -17,5 +17,9 @@ MonoBehaviour:
     Sentences:
     - "En avant avec l'\xE9cureuil !!"
   kigurumiChoice: 0
+  options:
+  - "Retourner \xE0 l'exposition ?"
+  - Prendre le Loup finalement ?
   nextNodes:
   - {fileID: 11400000, guid: 8d6935ef4a4c3ed48ba029d467fe50f3, type: 2}
+  - {fileID: 11400000, guid: b4485b1ada4d92048991413601d49156, type: 2}

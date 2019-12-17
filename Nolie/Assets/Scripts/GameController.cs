@@ -28,6 +28,7 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
+        /*
         if (Input.GetButtonDown("Fire1"))
         {
             if (uiHandler.isTyping)
@@ -38,7 +39,7 @@ public class GameController : MonoBehaviour
             {
                 NextSentence();
             }
-        }
+        }*/
     }
 
 
@@ -73,8 +74,19 @@ public class GameController : MonoBehaviour
                 {
                     kigurumis.GetComponent<Canvas>().enabled = true;
                 }
+                else
+                {
+                   uiHandler.ActiveOptions(curentNode.options[0], curentNode.options[1]);
+                }
             }
         }
+    }
+
+
+
+    public void SelecteOption(int index)
+    {
+        Debug.Log("SelectOption");
     }
 
 

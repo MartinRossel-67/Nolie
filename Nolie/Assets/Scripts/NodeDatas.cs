@@ -12,5 +12,6 @@ public class NodeDatas : ScriptableObject
     [Header("Nodes")]
     [Space(10)]
     [SerializeField] public bool kigurumiChoice = false;
+    [SerializeField] public string[] options;
     [SerializeField] public NodeDatas[] nextNodes;
 }

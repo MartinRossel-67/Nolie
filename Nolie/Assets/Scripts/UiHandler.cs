@@ -7,10 +7,14 @@ public class UiHandler : MonoBehaviour
 {
     [SerializeField] private GameObject[] characters;
     [SerializeField] private GameObject curentSpeaker;
-    [SerializeField] private Text speakerField;
-    [SerializeField] private Text textField;
 
-    [SerializeField] private float typeSpeed;
+    [Space(10)]
+    [SerializeField] private Text dialogueTextField;
+    private Canvas dialogueCanvas;
+    [SerializeField] private Text option1TextField, option2TextField;
+    private Canvas optionsCanvas;
+
+    [SerializeField][Space(10)] private float typeSpeed;
     public bool isTyping;
 
     [SerializeField] private Color notSpeakingColor;
@@ -35,18 +39,18 @@ public class UiHandler : MonoBehaviour
         }
 
         StopAllCoroutines();
-        StartCoroutine(TypeSentence(_sentence));
+        StartCoroutine(TypeSentence(_sentence, dialogueTextField));
     }
 
 
-    IEnumerator TypeSentence(string sentence)
+    IEnumerator TypeSentence(string sentence, Text _textField)
     {
         isTyping = true;
-        textField.text = "";
+        _textField.text = "";
         foreach (char letter in sentence.ToCharArray())
         {
             yield return new WaitForSeconds(1 / typeSpeed);
-            textField.text += letter;
+            _textField.text += letter;
         }
         isTyping = false;
     }
@@ -55,8 +59,24 @@ public class UiHandler : MonoBehaviour
     public void DisplaySentence(string _sentence)
     {
         StopAllCoroutines();
-        textField.text = _sentence;
+        dialogueTextField.text = _sentence;
         isTyping = false;
     }
     #endregion
+
+
+    public void ActiveOptions(string _sentence1, string _sentence2)
+    {
+        if (dialogueCanvas == null)
+        {
+            dialogueCanvas = dialogueTextField.GetComponentInParent<Canvas>();
+            optionsCanvas = option1TextField.GetComponentInParent<Canvas>();
+        }
+        
+        dialogueCanvas.enabled = false;        
+        optionsCanvas.enabled = true;
+
+        StartCoroutine(TypeSentence(_sentence1, option1TextField));  
+        StartCoroutine(TypeSentence(_sentence2, option2TextField));
+    }
 }

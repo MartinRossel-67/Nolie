@@ -25,13 +25,11 @@ public class Kigurumi : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        Debug.Log("Begin Drag");
         GetComponentInParent<GraphicRaycaster>().enabled = false;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        Debug.Log("Draging");
         transform.position = Input.mousePosition;
     }
 
@@ -45,7 +43,6 @@ public class Kigurumi : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         {
             if (eventData.pointerEnter.gameObject.tag == "Player")
             {
-                Debug.Log("Player");
                 gameController.NextNode(index);
                 gameObject.GetComponentInParent<Canvas>().enabled = false;
             }
