@@ -12,11 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae3c0a0832fe7934aa04c79f07cb341d, type: 3}
   m_Name: Loup
   m_EditorClassIdentifier: 
+  newBackground: {fileID: 21300000, guid: e481a43a8808bef429465751491734d8, type: 3}
   dialogues:
   - speaker: Nolie
     Sentences:
     - AaaOUUUUUUUUUUUUUUUHHH !!!
     - Et maintenant ?
   kigurumiChoice: 0
+  options:
+  - "Retour \xE0 l'exposition"
+  - 'Je vais prendre le Pinguin finalement '
   nextNodes:
   - {fileID: 11400000, guid: 8d6935ef4a4c3ed48ba029d467fe50f3, type: 2}
+  - {fileID: 11400000, guid: 3bc4dcb60702b7542a555cf19fd0fb5d, type: 2}

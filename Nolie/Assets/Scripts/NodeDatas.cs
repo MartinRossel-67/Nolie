@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 [CreateAssetMenu(fileName = "New Node", menuName = "Node")]
 public class NodeDatas : ScriptableObject
 {
+    [SerializeField] public string newSceneName;
+
     [Header("Dialogues")]
+    [Space(10)]
     [SerializeField] public Dialogue[] dialogues;
 
     [Header("Nodes")]

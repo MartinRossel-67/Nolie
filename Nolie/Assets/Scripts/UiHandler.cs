@@ -5,19 +5,30 @@ using UnityEngine.UI;
 
 public class UiHandler : MonoBehaviour
 {
+    [SerializeField] private GameController gameController;
+
+    [Header("Dialogues")]
     [SerializeField] private GameObject[] characters;
     [SerializeField] private GameObject curentSpeaker;
 
     [Space(10)]
     [SerializeField] private Text dialogueTextField;
-    private Canvas dialogueCanvas;
+    [SerializeField] private Canvas dialogueCanvas;
     [SerializeField] private Text option1TextField, option2TextField;
-    private Canvas optionsCanvas;
+    [SerializeField] private Canvas optionsCanvas;
 
     [SerializeField][Space(10)] private float typeSpeed;
-    public bool isTyping;
+    [SerializeField] public bool isTyping;
 
     [SerializeField] private Color notSpeakingColor;
+
+
+    [Header("Help")]
+    [SerializeField] private GameObject swipHelper;
+    [SerializeField] private float swipHelperDuration = 1;
+    [SerializeField] private GameObject clicHelper;
+    [SerializeField] private float clicHelperDuration = 1;
+
 
 
     #region Text Manager
@@ -65,18 +76,39 @@ public class UiHandler : MonoBehaviour
     #endregion
 
 
-    public void ActiveOptions(string _sentence1, string _sentence2)
-    {
-        if (dialogueCanvas == null)
-        {
-            dialogueCanvas = dialogueTextField.GetComponentInParent<Canvas>();
-            optionsCanvas = option1TextField.GetComponentInParent<Canvas>();
-        }
-        
+    public void EnableOptions(string _sentence1, string _sentence2)
+    {        
         dialogueCanvas.enabled = false;        
         optionsCanvas.enabled = true;
 
         StartCoroutine(TypeSentence(_sentence1, option1TextField));  
         StartCoroutine(TypeSentence(_sentence2, option2TextField));
+    }
+
+        public void DisableOptions()
+    {        
+        dialogueCanvas.enabled = true;        
+        optionsCanvas.enabled = false;
+    }
+
+
+    
+    public IEnumerator SwipHelp()
+    {        
+        swipHelper.SetActive(true);
+        yield return new WaitForSeconds(swipHelperDuration - 0.01f);
+        swipHelper.SetActive(false);
+
+        gameController.EndHelp();
+    }
+
+
+    public IEnumerator ClicHelp()
+    {        
+        clicHelper.SetActive(true);
+        yield return new WaitForSeconds(clicHelperDuration - 0.01f);
+        clicHelper.SetActive(false);
+
+        gameController.EndHelp();
     }
 }

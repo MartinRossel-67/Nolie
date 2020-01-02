@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae3c0a0832fe7934aa04c79f07cb341d, type: 3}
   m_Name: Ecureuil
   m_EditorClassIdentifier: 
+  newSceneName: 
   dialogues:
   - speaker: Nolie
     Sentences:
     - "En avant avec l'\xE9cureuil !!"
   kigurumiChoice: 0
   options:
-  - "Retourner \xE0 l'exposition ?"
+  - "Allons r\xE9cuper l'\xE9toile dans la salle de bain !"
   - Prendre le Loup finalement ?
   nextNodes:
-  - {fileID: 11400000, guid: 8d6935ef4a4c3ed48ba029d467fe50f3, type: 2}
+  - {fileID: 11400000, guid: ae3ffb578a000864f995103a6dcd414f, type: 2}
   - {fileID: 11400000, guid: b4485b1ada4d92048991413601d49156, type: 2}

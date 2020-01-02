@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae3c0a0832fe7934aa04c79f07cb341d, type: 3}
+  m_Name: Salle de Bain_7
+  m_EditorClassIdentifier: 
+  newSceneName: 
+  dialogues:
+  - speaker: Sedos
+    Sentences:
+    - Salle de Bain 7
+    - Calme toi Nolie
+  kigurumiChoice: 0
+  options: []
+  nextNodes:
+  - {fileID: 11400000, guid: ae3ffb578a000864f995103a6dcd414f, type: 2}

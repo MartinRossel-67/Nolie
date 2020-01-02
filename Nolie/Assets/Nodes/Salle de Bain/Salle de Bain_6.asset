@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae3c0a0832fe7934aa04c79f07cb341d, type: 3}
+  m_Name: Salle de Bain_6
+  m_EditorClassIdentifier: 
+  newSceneName: 
+  dialogues:
+  - speaker: Nolie
+    Sentences:
+    - Salle de bain 6
+    - "Ok ok\t"
+  kigurumiChoice: 1
+  options: []
+  nextNodes:
+  - {fileID: 11400000, guid: cd1553d1ea8cd0241a80f3d06960c295, type: 2}
+  - {fileID: 11400000, guid: e5a4b900791ffac4ebf52a09ec75001d, type: 2}
+  - {fileID: 11400000, guid: e13c5fef85996a8419556ea5924fd801, type: 2}
