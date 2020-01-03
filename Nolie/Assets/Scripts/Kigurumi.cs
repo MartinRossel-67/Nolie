@@ -22,7 +22,6 @@ public class Kigurumi : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         //spriteRenderer.sprite = sprite;
     }
 
-
     public void OnBeginDrag(PointerEventData eventData)
     {
         GetComponentInParent<GraphicRaycaster>().enabled = false;
@@ -45,7 +44,15 @@ public class Kigurumi : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
             {
                 gameController.NextNode(index);
                 gameObject.GetComponentInParent<Canvas>().enabled = false;
+                StartCoroutine(Transform(eventData.pointerEnter.gameObject));
             }
         }
+    }
+
+    IEnumerator Transform(GameObject gameObject)
+    {
+        gameObject.GetComponent<Animator>().SetTrigger("Transformation");
+        yield return new WaitForSeconds(0.45f);
+        gameObject.GetComponent<Image>().sprite = sprite;
     }
 }
