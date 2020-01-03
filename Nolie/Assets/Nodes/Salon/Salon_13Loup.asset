@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae3c0a0832fe7934aa04c79f07cb341d, type: 3}
-  m_Name: Ecureuil
+  m_Name: Salon_13Loup
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
   - speaker: Nolie
     Sentences:
-    - "En avant avec l'\xE9cureuil !!"
+    - Loup
   kigurumiChoice: 0
   options:
-  - "Allons r\xE9cuper l'\xE9toile dans la salle de bain !"
-  - Prendre le Loup finalement ?
+  - Sauter
+  - Grimper
   nextNodes:
-  - {fileID: 11400000, guid: ae3ffb578a000864f995103a6dcd414f, type: 2}
-  - {fileID: 11400000, guid: b4485b1ada4d92048991413601d49156, type: 2}
+  - {fileID: 11400000, guid: a8275ba4a77bcc341a8d1961ed58cbf3, type: 2}
+  - {fileID: 11400000, guid: 3ff614e3738db83468f24bf5acd4f31d, type: 2}

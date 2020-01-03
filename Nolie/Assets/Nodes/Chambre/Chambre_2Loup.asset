@@ -10,14 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae3c0a0832fe7934aa04c79f07cb341d, type: 3}
-  m_Name: Salon_11
+  m_Name: Chambre_2Loup
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Salon 11
+    - AaaOUUUUUUUUUUUUUUUHHH !!!
+    - Et maintenant ?
   kigurumiChoice: 0
-  options: []
+  options:
+  - "Allons r\xE9cup\xE9rer '\xE9toile"
+  - Essayer un autre costume
   nextNodes:
-  - {fileID: 11400000, guid: 3d1ab616d761c204e8fac374247dc238, type: 2}
+  - {fileID: 11400000, guid: 28f31ff5399cf42499b394517d2ba330, type: 2}
+  - {fileID: 11400000, guid: 8d6935ef4a4c3ed48ba029d467fe50f3, type: 2}

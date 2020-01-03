@@ -10,14 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae3c0a0832fe7934aa04c79f07cb341d, type: 3}
-  m_Name: Salon_11
+  m_Name: Salon_13Ecur
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Salon 11
+    - Ecureuil
   kigurumiChoice: 0
-  options: []
+  options:
+  - Grimper
+  - Sauter
   nextNodes:
-  - {fileID: 11400000, guid: 3d1ab616d761c204e8fac374247dc238, type: 2}
+  - {fileID: 11400000, guid: 65b9c536f68fa0947980c6eb9cedd8f7, type: 2}
+  - {fileID: 11400000, guid: 5fe63c09aa30e8d4ea3e5a7b78d97390, type: 2}

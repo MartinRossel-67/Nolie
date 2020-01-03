@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae3c0a0832fe7934aa04c79f07cb341d, type: 3}
-  m_Name: Salon_11
+  m_Name: Salon_13
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Salon 11
-  kigurumiChoice: 0
+    - Salon_13
+  kigurumiChoice: 1
   options: []
   nextNodes:
-  - {fileID: 11400000, guid: 3d1ab616d761c204e8fac374247dc238, type: 2}
+  - {fileID: 11400000, guid: 3409659c038a80c48bd0cc7931564cf4, type: 2}
+  - {fileID: 11400000, guid: f03d9fe06ea581b41aeab57f71158735, type: 2}
+  - {fileID: 11400000, guid: e90bc9b32cae7f344a61f0d4a39fbf92, type: 2}

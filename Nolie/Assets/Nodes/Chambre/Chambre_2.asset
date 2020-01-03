@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae3c0a0832fe7934aa04c79f07cb341d, type: 3}
-  m_Name: Exposition
+  m_Name: Chambre_2
   m_EditorClassIdentifier: 
   newSceneName: Chambre
   dialogues:

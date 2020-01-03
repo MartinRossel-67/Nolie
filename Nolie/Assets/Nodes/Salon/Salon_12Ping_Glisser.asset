@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae3c0a0832fe7934aa04c79f07cb341d, type: 3}
-  m_Name: Pinguin
+  m_Name: Salon_12Ping_Glisser
   m_EditorClassIdentifier: 
+  newSceneName: 
   dialogues:
   - speaker: Nolie
     Sentences:
-    - C'est le Pinguin haha !
+    - Glisser
   kigurumiChoice: 0
+  options: []
   nextNodes:
-  - {fileID: 11400000, guid: 8d6935ef4a4c3ed48ba029d467fe50f3, type: 2}
+  - {fileID: 11400000, guid: 73e388e55a7615e4aaf55a813d9f3832, type: 2}

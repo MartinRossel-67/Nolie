@@ -10,14 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae3c0a0832fe7934aa04c79f07cb341d, type: 3}
-  m_Name: Salon_11
+  m_Name: Salon_12Ping
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Salon 11
+    - Ping
   kigurumiChoice: 0
-  options: []
+  options:
+  - Nager
+  - Glisser
   nextNodes:
-  - {fileID: 11400000, guid: 3d1ab616d761c204e8fac374247dc238, type: 2}
+  - {fileID: 11400000, guid: 40149ca75822a50438f749e9a70b3e6b, type: 2}
+  - {fileID: 11400000, guid: d0773ea3f9d5057409eea233cdc9b342, type: 2}

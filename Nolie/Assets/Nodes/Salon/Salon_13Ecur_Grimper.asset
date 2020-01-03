@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae3c0a0832fe7934aa04c79f07cb341d, type: 3}
-  m_Name: Salon_11
+  m_Name: Salon_13Ecur_Grimper
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Salon 11
+    - Grimper
   kigurumiChoice: 0
   options: []
   nextNodes:
-  - {fileID: 11400000, guid: 3d1ab616d761c204e8fac374247dc238, type: 2}
+  - {fileID: 11400000, guid: b3cb775096aa4f747afb3f87514a4194, type: 2}
