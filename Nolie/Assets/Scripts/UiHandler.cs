@@ -17,7 +17,7 @@ public class UiHandler : MonoBehaviour
     [SerializeField] private Text option1TextField, option2TextField;
     [SerializeField] private Canvas optionsCanvas;
 
-    [SerializeField][Space(10)] private float typeSpeed;
+    [SerializeField] [Space(10)] private float typeSpeed;
     [SerializeField] public bool isTyping;
 
     [SerializeField] private Color notSpeakingColor;
@@ -42,7 +42,7 @@ public class UiHandler : MonoBehaviour
             {
                 if (character.name == _speaker)
                 {
-                    character.GetComponentInParent<Image>().color = new Color(1,1,1);
+                    character.GetComponentInParent<Image>().color = new Color(1, 1, 1);
                     curentSpeaker = character;
                     break;
                 }
@@ -50,6 +50,7 @@ public class UiHandler : MonoBehaviour
         }
 
         StopAllCoroutines();
+        StopHelp();
         StartCoroutine(TypeSentence(_sentence, dialogueTextField));
     }
 
@@ -70,31 +71,35 @@ public class UiHandler : MonoBehaviour
     public void DisplaySentence(string _sentence)
     {
         StopAllCoroutines();
+        StopHelp();
+
         dialogueTextField.text = _sentence;
         isTyping = false;
+
+        gameController.EndHelp();
     }
     #endregion
 
 
     public void EnableOptions(string _sentence1, string _sentence2)
-    {        
-        dialogueCanvas.enabled = false;        
+    {
+        dialogueCanvas.enabled = false;
         optionsCanvas.enabled = true;
 
-        StartCoroutine(TypeSentence(_sentence1, option1TextField));  
+        StartCoroutine(TypeSentence(_sentence1, option1TextField));
         StartCoroutine(TypeSentence(_sentence2, option2TextField));
     }
 
-        public void DisableOptions()
-    {        
-        dialogueCanvas.enabled = true;        
+    public void DisableOptions()
+    {
+        dialogueCanvas.enabled = true;
         optionsCanvas.enabled = false;
     }
 
 
-    
+
     public IEnumerator SwipHelp()
-    {        
+    {
         swipHelper.SetActive(true);
         yield return new WaitForSeconds(swipHelperDuration - 0.01f);
         swipHelper.SetActive(false);
@@ -104,9 +109,18 @@ public class UiHandler : MonoBehaviour
 
 
     public IEnumerator ClicHelp()
-    {        
+    {
         clicHelper.SetActive(true);
         yield return new WaitForSeconds(clicHelperDuration - 0.01f);
+        clicHelper.SetActive(false);
+
+        gameController.EndHelp();
+    }
+
+
+    public void StopHelp()
+    {
+        swipHelper.SetActive(false);
         clicHelper.SetActive(false);
 
         gameController.EndHelp();

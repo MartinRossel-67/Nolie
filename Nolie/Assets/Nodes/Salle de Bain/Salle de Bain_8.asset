@@ -10,17 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae3c0a0832fe7934aa04c79f07cb341d, type: 3}
-  m_Name: Salle de Bain_7
+  m_Name: Salle de Bain_8
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
   - speaker: Sedos
     Sentences:
-    - Salle de Bain 7
-    - Calme toi Nolie
+    - "Salle de Bain 8\t"
   kigurumiChoice: 1
   options: []
   nextNodes:
-  - {fileID: 11400000, guid: 0a59dae118095a4489c9c288e9a1c921, type: 2}
-  - {fileID: 11400000, guid: 2be5aaac6401f444684efe177d76567c, type: 2}
-  - {fileID: 11400000, guid: f9c0f98f93922ec4595d8e27cbf5176f, type: 2}
+  - {fileID: 11400000, guid: 6b8c0fe346a268e43b0b2a86e5efae9f, type: 2}
+  - {fileID: 11400000, guid: 5e2d41dcba7e47f45a00eff394e18473, type: 2}
+  - {fileID: 11400000, guid: cc48a3036f952ac4e83cffbd495c4325, type: 2}
