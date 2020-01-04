@@ -8,4 +8,5 @@ public struct Dialogue
 {
     public string speaker;
     [TextArea] public string[] Sentences;
+    public bool playAnim;
 }

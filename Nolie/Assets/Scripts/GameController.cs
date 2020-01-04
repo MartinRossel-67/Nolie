@@ -129,7 +129,6 @@ public class GameController : MonoBehaviour
         curentNode.SettingUp(curentNode.nextNodes[index]);
         if (animHandler != null)
         {
-            Debug.Log(animHandler.name);
             animHandler.SetTrigger(index.ToString());
         }
 
@@ -148,6 +147,10 @@ public class GameController : MonoBehaviour
 
     void UpdateTextField()
     {
+        if (curentNode.dialogues[curentDialogue].playAnim && curentSentence == 0)
+        {            
+            animHandler.SetTrigger("0");
+        }
         uiHandler.UpdateTextField(curentNode.dialogues[curentDialogue].speaker,
                                 curentNode.dialogues[curentDialogue].Sentences[curentSentence]);
     }
