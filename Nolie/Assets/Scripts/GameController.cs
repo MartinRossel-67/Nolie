@@ -48,7 +48,8 @@ public class GameController : MonoBehaviour
             else
             {
                 NextSentence();
-            }            
+            }   
+            timeSinceLastInput = 0;         
         }
 
         if (timeSinceLastInput > timeBeforeHelp && !isHelping)
