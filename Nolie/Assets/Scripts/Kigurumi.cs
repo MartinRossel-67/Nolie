@@ -52,7 +52,7 @@ public class Kigurumi : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     IEnumerator Transform(GameObject gameObject)
     {
         gameObject.GetComponent<Animator>().SetTrigger("Transformation");
-        yield return new WaitForSeconds(0.45f);
+        yield return new WaitForSeconds(0.85f);
         gameObject.GetComponent<Image>().sprite = sprite;
     }
 }
