@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
-  - speaker: 
+  - speaker: Nolie
     Sentences:
-    - Planer
+    - "Je vais planer au dessus des r\xE9cifs !"
+    playAnim: 1
   kigurumiChoice: 0
   options: []
   nextNodes:
-  - {fileID: 11400000, guid: d06176f408ba7444883aa1f542aa0638, type: 2}
+  - {fileID: 11400000, guid: c52cc5bf10fe2fd439945b5a6f90cae0, type: 2}

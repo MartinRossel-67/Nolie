@@ -10,18 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae3c0a0832fe7934aa04c79f07cb341d, type: 3}
-  m_Name: Salle de Bain_8Loup
+  m_Name: Salon_13bis
   m_EditorClassIdentifier: 
   newSceneName: 
-  dialogues:
-  - speaker: Narrateur
-    Sentences:
-    - Tu as plusieurs choix Nolie.
-    playAnim: 0
-  kigurumiChoice: 0
-  options:
-  - Nager
-  - Sauter
+  dialogues: []
+  kigurumiChoice: 1
+  options: []
   nextNodes:
-  - {fileID: 11400000, guid: 31ae1ce7bb5b99046b4546a9480967db, type: 2}
-  - {fileID: 11400000, guid: 9ceedac6cca842946afc6ccfab30b212, type: 2}
+  - {fileID: 11400000, guid: 3409659c038a80c48bd0cc7931564cf4, type: 2}
+  - {fileID: 11400000, guid: f03d9fe06ea581b41aeab57f71158735, type: 2}
+  - {fileID: 11400000, guid: e90bc9b32cae7f344a61f0d4a39fbf92, type: 2}

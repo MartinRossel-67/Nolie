@@ -14,10 +14,65 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSceneName: Salle de Bain
   dialogues:
+  - speaker: "S\xE9dos"
+    Sentences:
+    - C'est le bazar !
+    playAnim: 0
   - speaker: Nolie
     Sentences:
-    - Salle de Bain 4 !!!
-    - "Super.\t"
+    - "C'est \xE0 cause de la temp\xEAte !"
+    - "Regarde la fen\xEAtre ! Elle est toute cass\xE9e !\r"
+    playAnim: 0
+  - speaker: "S\xE9dos"
+    Sentences:
+    - "Le lavabo aussi il est cass\xE9 ! L\u2019eau n\u2019arr\xEAte pas de couler
+      !"
+    playAnim: 0
+  - speaker: Nolie
+    Sentences:
+    - "L\u2019\xE9toile est cach\xE9e l\xE0 bas ! Mais c\u2019est dangereux je peux
+      pas traverser \xE7a\u2026 \r"
+    playAnim: 0
+  - speaker: Narrateur
+    Sentences:
+    - Besoin d'aide ?
+    playAnim: 0
+  - speaker: Nolie
+    Sentences:
+    - "Tu peux m\u2019aider ?"
+    playAnim: 0
+  - speaker: Narrateur
+    Sentences:
+    - "Bien s\xFBr ! Je suis l\xE0 pour \xE7a."
+    - "Mais demande \xE0 ton ami plut\xF4t."
+    - "S\xE9dos rappelle toi ce que je t\u2019ai dit la derni\xE8re fois\u2026"
+    playAnim: 0
+  - speaker: "S\xE9dos"
+    Sentences:
+    - "Comment \xE7a ?"
+    playAnim: 0
+  - speaker: Narrateur
+    Sentences:
+    - Nolie est ton ami non ?
+    - "Aide-le, je ne vais pas tout faire \xE0 ta place\u2026"
+    playAnim: 0
+  - speaker: Nolie
+    Sentences:
+    - "C\u2019est vrai ? Tu peux m\u2019aider S\xE9dos ?!"
+    playAnim: 0
+  - speaker: Narrateur
+    Sentences:
+    - "S\xE9dos\u2026 tu sais le petit coup de pouce\u2026"
+    playAnim: 0
+  - speaker: "S\xE9dos"
+    Sentences:
+    - "Ah ui c\u2019est vrai..."
+    - Nolie sers toi de ton imagination !
+    playAnim: 0
+  - speaker: Nolie
+    Sentences:
+    - "\xC7a je sais faire !"
+    playAnim: 0
   kigurumiChoice: 0
   options: []
   nextNodes:

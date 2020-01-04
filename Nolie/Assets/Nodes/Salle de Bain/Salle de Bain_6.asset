@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
-  - speaker: Nolie
+  - speaker: Narrateur
     Sentences:
-    - Salle de bain 6
-    - "Ok ok\t"
+    - "Bien jou\xE9 S\xE9dos !"
+    - Choisis un kigurumi Nolie !
+    playAnim: 0
   kigurumiChoice: 1
   options: []
   nextNodes:

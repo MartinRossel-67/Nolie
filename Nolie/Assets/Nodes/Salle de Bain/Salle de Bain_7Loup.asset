@@ -16,10 +16,9 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - '7 loup
-
-'
+    - Aoooooooooouh !
+    playAnim: 1
   kigurumiChoice: 0
   options: []
   nextNodes:
-  - {fileID: 11400000, guid: 7e484a86af1b2c341b8bd54bd5e84f84, type: 2}
+  - {fileID: 11400000, guid: b5ace11a147a2044da8e95426bcf196f, type: 2}

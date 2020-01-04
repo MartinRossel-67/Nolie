@@ -16,10 +16,9 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Sauter
+    - "Je vais r\xE9ussir en sautant de r\xE9cif en r\xE9cif !"
+    playAnim: 1
   kigurumiChoice: 0
-  options:
-  - Nager
-  - Sauter
+  options: []
   nextNodes:
   - {fileID: 11400000, guid: d06176f408ba7444883aa1f542aa0638, type: 2}

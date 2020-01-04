@@ -14,12 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
-  - speaker: Sedos
+  - speaker: Nolie
     Sentences:
-    - 'Salle de Bain 9
-
-'
+    - "J\u2019ai r\xE9ussi !!! J\u2019ai d\xE9pass\xE9 mes peurs !"
+    playAnim: 0
+  - speaker: "S\xE9dos"
+    Sentences:
+    - Je suis fier de toi !
+    playAnim: 0
+  - speaker: Nolie
+    Sentences:
+    - "On a l'\xE9toile !"
+    playAnim: 1
+  - speaker: "S\xE9dos"
+    Sentences:
+    - Ouiii !
+    playAnim: 0
+  - speaker: Nolie
+    Sentences:
+    - "On a r\xE9ussi !"
+    playAnim: 0
+  - speaker: "S\xE9dos"
+    Sentences:
+    - Maintenant direction le salon !
+    playAnim: 1
+  - speaker: Nolie
+    Sentences:
+    - "Waaaaaah j\u2019ai travers\xE9 toute la salle de bain !"
+    playAnim: 1
+  - speaker: "S\xE9dos"
+    Sentences:
+    - "Et oui Nolie ! Il faut pas baisser les bras tu vois, tu y es arriv\xE9 !\r\n"
+    playAnim: 1
+  - speaker: Nolie
+    Sentences:
+    - "G\xE9nial ! Suis moi S\xE9dos l\u2019aventure n\u2019est pas finie !"
+    playAnim: 1
   kigurumiChoice: 0
   options: []
   nextNodes:
-  - {fileID: 11400000, guid: ae3ffb578a000864f995103a6dcd414f, type: 2}
+  - {fileID: 11400000, guid: 2ed0fac43ac78a04aadd276a442d82a6, type: 2}

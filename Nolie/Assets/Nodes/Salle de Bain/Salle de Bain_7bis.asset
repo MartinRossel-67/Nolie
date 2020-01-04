@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae3c0a0832fe7934aa04c79f07cb341d, type: 3}
-  m_Name: Salle de Bain_8Loup
+  m_Name: Salle de Bain_7bis
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
   - speaker: Narrateur
     Sentences:
-    - Tu as plusieurs choix Nolie.
+    - Fais attention au vent et aux vagues rapides.
+    - Choisi ton kigurumis !
     playAnim: 0
-  kigurumiChoice: 0
-  options:
-  - Nager
-  - Sauter
+  kigurumiChoice: 1
+  options: []
   nextNodes:
-  - {fileID: 11400000, guid: 31ae1ce7bb5b99046b4546a9480967db, type: 2}
-  - {fileID: 11400000, guid: 9ceedac6cca842946afc6ccfab30b212, type: 2}
+  - {fileID: 11400000, guid: 0a59dae118095a4489c9c288e9a1c921, type: 2}
+  - {fileID: 11400000, guid: 2be5aaac6401f444684efe177d76567c, type: 2}
+  - {fileID: 11400000, guid: f9c0f98f93922ec4595d8e27cbf5176f, type: 2}

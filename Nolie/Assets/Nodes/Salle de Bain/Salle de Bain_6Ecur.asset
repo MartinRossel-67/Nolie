@@ -16,7 +16,8 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - En faite c'est plus un manchau qu'un pinguin...
+    - "Super ! Je peux planer jusqu\u2019\xE0 l\u2019\xE9pave !"
+    playAnim: 1
   kigurumiChoice: 0
   options: []
   nextNodes:

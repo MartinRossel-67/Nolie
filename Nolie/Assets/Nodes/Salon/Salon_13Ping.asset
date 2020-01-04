@@ -17,7 +17,8 @@ MonoBehaviour:
   - speaker: Nolie
     Sentences:
     - Ping
+    playAnim: 0
   kigurumiChoice: 0
   options: []
   nextNodes:
-  - {fileID: 11400000, guid: 73e388e55a7615e4aaf55a813d9f3832, type: 2}
+  - {fileID: 11400000, guid: 99a0c5ba30d4af64fbf92a456bfe450a, type: 2}

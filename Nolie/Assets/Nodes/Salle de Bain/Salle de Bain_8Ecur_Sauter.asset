@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
-  - speaker: 
+  - speaker: Nolie
     Sentences:
-    - Sauter
+    - "Je vais sauter de r\xE9cif en r\xE9cif !"
+    playAnim: 1
   kigurumiChoice: 0
   options: []
   nextNodes:

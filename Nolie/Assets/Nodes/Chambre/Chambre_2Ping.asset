@@ -16,11 +16,17 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - C'est le Pinguin haha !
+    - Je suis un pingouin !
+    playAnim: 0
+  - speaker: Narrateur
+    Sentences:
+    - "A toi les capacit\xE9s du pingouin !"
+    - Maintenant choisi ce que tu veux faire !
+    playAnim: 0
   kigurumiChoice: 0
   options:
-  - Essayer un autre costume
-  - "Aller chercher l'\xE9toile"
+  - "Allons r\xE9cup\xE9rer l'\xE9toile !"
+  - Essayer un autre costume.
   nextNodes:
-  - {fileID: 11400000, guid: 8d6935ef4a4c3ed48ba029d467fe50f3, type: 2}
   - {fileID: 11400000, guid: 28f31ff5399cf42499b394517d2ba330, type: 2}
+  - {fileID: 11400000, guid: 4c4358999db2dea40a8951f9127b84f2, type: 2}

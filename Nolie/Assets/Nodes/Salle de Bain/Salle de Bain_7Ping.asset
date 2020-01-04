@@ -14,11 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
-  - speaker: 
+  - speaker: Nolie
     Sentences:
-    - '7Ping
-
-'
+    - "C\u2019est partiii !"
+    playAnim: 0
+  - speaker: Narrateur
+    Sentences:
+    - Nolie attend !
+    - "Tu peux traverser cette temp\xEAte de plusieurs fa\xE7ons\u2026"
+    - "Un pingouin peut nager ou plonger\u2026"
+    playAnim: 0
+  - speaker: "S\xE9dos"
+    Sentences:
+    - Choisi bien !
+    playAnim: 0
   kigurumiChoice: 0
   options:
   - Nager

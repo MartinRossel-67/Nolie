@@ -14,12 +14,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
-  - speaker: Sedos
+  - speaker: "S\xE9dos"
     Sentences:
-    - "Salle de Bain 8\t"
-  kigurumiChoice: 1
+    - "Bien jou\xE9 Nolie !"
+    - "C\u2019est g\xE9nial le pouvoir des kigurumis !"
+    playAnim: 0
+  - speaker: Nolie
+    Sentences:
+    - "C\u2019est super fort !"
+    - "Et si je r\xE9ussi c\u2019est gr\xE2ce \xE0 mon imagination ?"
+    playAnim: 0
+  - speaker: "S\xE9dos"
+    Sentences:
+    - "Je te l\u2019ai dit !"
+    - "Tu peux faire beaucoup de choses gr\xE2ce \xE0 ton imagination !"
+    playAnim: 0
+  - speaker: Nolie
+    Sentences:
+    - "Je suis quand m\xEAme pas rassur\xE9\u2026 Je pense\u2026avoir\u2026 le vertige\u2026"
+    playAnim: 0
+  - speaker: "S\xE9dos"
+    Sentences:
+    - Moi je crois en toi !
+    playAnim: 0
+  kigurumiChoice: 0
   options: []
   nextNodes:
-  - {fileID: 11400000, guid: 6b8c0fe346a268e43b0b2a86e5efae9f, type: 2}
-  - {fileID: 11400000, guid: 5e2d41dcba7e47f45a00eff394e18473, type: 2}
-  - {fileID: 11400000, guid: cc48a3036f952ac4e83cffbd495c4325, type: 2}
+  - {fileID: 11400000, guid: c52cc5bf10fe2fd439945b5a6f90cae0, type: 2}

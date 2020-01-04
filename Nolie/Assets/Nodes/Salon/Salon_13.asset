@@ -17,9 +17,8 @@ MonoBehaviour:
   - speaker: Nolie
     Sentences:
     - Salon_13
+    playAnim: 0
   kigurumiChoice: 1
   options: []
   nextNodes:
-  - {fileID: 11400000, guid: 3409659c038a80c48bd0cc7931564cf4, type: 2}
-  - {fileID: 11400000, guid: f03d9fe06ea581b41aeab57f71158735, type: 2}
-  - {fileID: 11400000, guid: e90bc9b32cae7f344a61f0d4a39fbf92, type: 2}
+  - {fileID: 11400000, guid: 99a0c5ba30d4af64fbf92a456bfe450a, type: 2}

@@ -16,8 +16,8 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Le Louuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuup
-      !
+    - "Super ! Je peux nager jusqu\u2019\xE0 l\u2019\xE9pave !"
+    playAnim: 1
   kigurumiChoice: 0
   options: []
   nextNodes:

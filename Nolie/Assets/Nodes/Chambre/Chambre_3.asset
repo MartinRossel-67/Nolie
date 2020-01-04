@@ -14,9 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
+  - speaker: Narrateur
+    Sentences:
+    - Super !
+    - "Maintenant partez \xE0 l'aventure !"
+    - "J'ai vu Mia dans la salle de bain tout \xE0 l\u2019heure,l\u2019\xE9toile se
+      trouve l\xE0 bas."
+    playAnim: 0
   - speaker: Sedos
     Sentences:
-    - C'est partie
+    - Direction la salle de bain !
+    playAnim: 0
+  - speaker: Narrateur
+    Sentences:
+    - "Cher joueur, maintenant la v\xE9ritable histoire de Nolie va pouvoir commencer."
+    playAnim: 0
   kigurumiChoice: 0
   options: []
   nextNodes:

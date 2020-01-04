@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
-  - speaker: 
+  - speaker: Nolie
     Sentences:
-    - PPPPPPlonger
+    - Je vais plonger !
+    playAnim: 1
   kigurumiChoice: 0
   options: []
   nextNodes:

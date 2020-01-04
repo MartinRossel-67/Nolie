@@ -14,11 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
-  - speaker: 
+  - speaker: Nolie
     Sentences:
-    - 'NAGERRRRRRRRR
+    - 'Je vais nager !
 
 '
+    playAnim: 1
   kigurumiChoice: 0
   options: []
   nextNodes:

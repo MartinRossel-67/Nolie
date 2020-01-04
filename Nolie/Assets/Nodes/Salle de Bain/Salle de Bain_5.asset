@@ -14,10 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
-  - speaker: Sedos
+  - speaker: Narrateur
     Sentences:
-    - Salle de bain 5
-    - On avance bien !
+    - "Te voil\xE0 en possession d\u2019un grand pouvoir Nolie!"
+    - "Mais sache qu\u2019un grand pouvoir implique une grande responsabilit\xE9 !"
+    playAnim: 0
+  - speaker: "S\xE9dos"
+    Sentences:
+    - "Sacr\xE9 oncle Ben !"
+    playAnim: 0
+  - speaker: Nolie
+    Sentences:
+    - "C\u2019est pas tout mais il reste un probl\xE8me : la mer."
+    - "Je dois la traverser\u2026"
+    playAnim: 0
+  - speaker: "S\xE9dos"
+    Sentences:
+    - Les kigurumis Nolie !
+    playAnim: 0
   kigurumiChoice: 0
   options: []
   nextNodes:

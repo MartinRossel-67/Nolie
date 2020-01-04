@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
-  - speaker: Nolie
+  - speaker: Narrateur
     Sentences:
-    - '8 Ecur
-
-'
+    - "Ne te pr\xE9cipite pas Nolie, tu peux traverser les r\xE9cifs de plusieurs
+      fa\xE7ons !"
+    playAnim: 0
   kigurumiChoice: 0
   options:
   - Planer

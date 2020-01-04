@@ -16,8 +16,9 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Nager
+    - Je vais nager !
+    playAnim: 1
   kigurumiChoice: 0
   options: []
   nextNodes:
-  - {fileID: 11400000, guid: 6a26e25ff82a6334c8c9f234ddc49460, type: 2}
+  - {fileID: 11400000, guid: c52cc5bf10fe2fd439945b5a6f90cae0, type: 2}

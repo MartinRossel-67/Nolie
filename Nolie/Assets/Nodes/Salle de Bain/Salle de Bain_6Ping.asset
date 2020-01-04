@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
-  - speaker: 
+  - speaker: Nolie
     Sentences:
-    - "J'ai mis la phrase du pinguin sur l'\xE9cureil haha !"
+    - "Super ! Je peux nager jusqu\u2019\xE0 l\u2019\xE9pave !"
+    playAnim: 1
   kigurumiChoice: 0
   options: []
   nextNodes:

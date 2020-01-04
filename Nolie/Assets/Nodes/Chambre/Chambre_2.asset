@@ -16,22 +16,81 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - "Hey Sedos !\t"
-    - "Qu'es qu'on va faire aujourd'hui ?\t"
+    - "Regarde ! Un mot !\r"
+    playAnim: 1
   - speaker: Sedos
     Sentences:
-    - Bonjour Nolie,
-    - "Il faut retrouver l'\xE9toile du sapin de no\xEBl et la poser au sommet !"
+    - "Mince ! Il faut retrouver cette \xE9toile."
+    playAnim: 0
   - speaker: Nolie
     Sentences:
-    - Super, allons-y !
-  - speaker: Sedos
+    - "Je sais pas o\xF9 ma soeur a pu la cacher.."
+    playAnim: 0
+  - speaker: Narrateur
     Sentences:
-    - Oui mais d'abord...
-    - tu dois prendre tes PIJAMAS !
-  kigurumiChoice: 1
+    - "Ne perds pas espoir Nolie.\r"
+    playAnim: 0
+  - speaker: Nolie
+    Sentences:
+    - "Qui..qui a parl\xE9 ?"
+    playAnim: 0
+  - speaker: Narrateur
+    Sentences:
+    - "Haha, c\u2019est moi, le narrateur !\r"
+    playAnim: 0
+  - speaker: Nolie
+    Sentences:
+    - Le narrateur ?
+    playAnim: 0
+  - speaker: "S\xE9dos"
+    Sentences:
+    - "C\u2019est un tr\xE8s vieil ami \xE0 moi."
+    playAnim: 0
+  - speaker: Narrateur
+    Sentences:
+    - "C\u2019est exacte, cela faisait longtemps S\xE9dos.\n"
+    - "Mais si je suis l\xE0 aujourd\u2019hui c\u2019est pour conter ton histoire
+      Nolie\r."
+    playAnim: 0
+  - speaker: Nolie
+    Sentences:
+    - "Je comprends pas\u2026 Je te vois pas !"
+    playAnim: 0
+  - speaker: Narrateur
+    Sentences:
+    - "Disons que je ne suis pas vraiment l\xE0\u2026"
+    playAnim: 0
+  - speaker: "S\xE9dos"
+    Sentences:
+    - Tu fais quoi ici ?
+    playAnim: 0
+  - speaker: Narrateur
+    Sentences:
+    - "Je vous l\u2019ai dit, je viens raconter l\u2019histoire de Nolie. Je vais
+      l\u2019aider dans sa qu\xEAte\r !\n"
+    playAnim: 0
+  - speaker: Nolie
+    Sentences:
+    - "Quelle qu\xEAte ? J\u2019ai pas besoin de toi !"
+    playAnim: 0
+  - speaker: Narrateur
+    Sentences:
+    - "Ah bon ? Pourtant je sais o\xF9 se trouve l\u2019\xE9toile..."
+    playAnim: 0
+  - speaker: Nolie
+    Sentences:
+    - Vraiment ?
+    playAnim: 0
+  - speaker: Narrateur
+    Sentences:
+    - Avant de commencer, voici tes Kigurumis pour ton aventure.
+    playAnim: 1
+  - speaker: Nolie
+    Sentences:
+    - "Un loup, un pingouin et..un \xE9cureuil volant ? Je vois pas en quoi \xE7a
+      pourrait m\u2019\xEAtre utile!\r\n"
+    playAnim: 0
+  kigurumiChoice: 0
   options: []
   nextNodes:
   - {fileID: 11400000, guid: b4485b1ada4d92048991413601d49156, type: 2}
-  - {fileID: 11400000, guid: 0c61612227af9c34eb84452d274f0a1f, type: 2}
-  - {fileID: 11400000, guid: 3bc4dcb60702b7542a555cf19fd0fb5d, type: 2}
