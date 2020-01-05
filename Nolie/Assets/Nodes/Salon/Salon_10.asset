@@ -16,8 +16,12 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - "Je commence \xE0 y prendre go\xFBt.\r\n"
-    - "C\u2019est parti direction le grand sapin !\r\n"
+    - "Waaaah le sapin est super grand\u2026"
+    - "M\xEAme sur la pointe des pieds \xE7a sera difficile\u2026\n"
+    playAnim: 0
+  - speaker: "S\xE9dos"
+    Sentences:
+    - "Tu sais ce qu\u2019il te reste \xE0 faire\u2026 \n"
     playAnim: 0
   - speaker: "S\xE9dos"
     Sentences:

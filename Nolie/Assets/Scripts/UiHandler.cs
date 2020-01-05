@@ -12,6 +12,8 @@ public class UiHandler : MonoBehaviour
     [SerializeField] private GameObject curentSpeaker;
 
     [Space(10)]
+    [SerializeField] private Canvas narrativeCanvas;
+
     [SerializeField] private Text dialogueTextField;
     [SerializeField] private Canvas dialogueCanvas;
     [SerializeField] private Text option1TextField, option2TextField;
@@ -30,9 +32,13 @@ public class UiHandler : MonoBehaviour
     [SerializeField] private float clicHelperDuration = 1;
 
 
+    private float waitingTime;
+    [HideInInspector] public bool isWaiting;
+
+
 
     #region Text Manager
-    public void UpdateTextField(string _speaker, string _sentence)
+    public void UpdateTextField(string _speaker, string _sentence, float waitingTime)
     {
         if (_speaker != curentSpeaker.name)
         {
@@ -51,12 +57,21 @@ public class UiHandler : MonoBehaviour
 
         StopAllCoroutines();
         StopHelp();
-        StartCoroutine(TypeSentence(_sentence, dialogueTextField));
+        StartCoroutine(TypeSentence(_sentence, dialogueTextField, waitingTime));
     }
 
 
-    IEnumerator TypeSentence(string sentence, Text _textField)
+    IEnumerator TypeSentence(string sentence, Text _textField, float waitingTime)
     {
+        if (waitingTime > 0)
+        {
+            isWaiting = true;
+            narrativeCanvas.enabled = false;
+            yield return new WaitForSeconds(waitingTime);
+            narrativeCanvas.enabled = true;
+            isWaiting = false;
+        }
+
         isTyping = true;
         _textField.text = "";
         foreach (char letter in sentence.ToCharArray())
@@ -86,8 +101,8 @@ public class UiHandler : MonoBehaviour
         dialogueCanvas.enabled = false;
         optionsCanvas.enabled = true;
 
-        StartCoroutine(TypeSentence(_sentence1, option1TextField));
-        StartCoroutine(TypeSentence(_sentence2, option2TextField));
+        StartCoroutine(TypeSentence(_sentence1, option1TextField, 0));
+        StartCoroutine(TypeSentence(_sentence2, option2TextField, 0));
     }
 
     public void DisableOptions()

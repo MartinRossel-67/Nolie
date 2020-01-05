@@ -41,15 +41,18 @@ public class GameController : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            if (uiHandler.isTyping)
+            if (!uiHandler.isWaiting)
             {
-                uiHandler.DisplaySentence(curentNode.dialogues[curentDialogue].Sentences[curentSentence]);
+                if (uiHandler.isTyping)
+                {
+                    uiHandler.DisplaySentence(curentNode.dialogues[curentDialogue].Sentences[curentSentence]);
+                }
+                else
+                {
+                    NextSentence();
+                }
+                timeSinceLastInput = 0;
             }
-            else
-            {
-                NextSentence();
-            }   
-            timeSinceLastInput = 0;         
         }
 
         if (timeSinceLastInput > timeBeforeHelp && !isHelping)
@@ -148,11 +151,22 @@ public class GameController : MonoBehaviour
 
     void UpdateTextField()
     {
-        if (curentNode.dialogues[curentDialogue].playAnim && curentSentence == 0)
-        {            
-            animHandler.SetTrigger("0");
+        if (curentSentence == 0)
+        {
+            if (curentNode.dialogues[curentDialogue].playAnim)
+            {
+                animHandler.SetTrigger("0");
+            }
+
+            uiHandler.UpdateTextField(curentNode.dialogues[curentDialogue].speaker,
+                                    curentNode.dialogues[curentDialogue].Sentences[curentSentence],
+                                    curentNode.dialogues[curentDialogue].waitingTime);
         }
-        uiHandler.UpdateTextField(curentNode.dialogues[curentDialogue].speaker,
-                                curentNode.dialogues[curentDialogue].Sentences[curentSentence]);
+        else
+        {
+            uiHandler.UpdateTextField(curentNode.dialogues[curentDialogue].speaker,
+                                    curentNode.dialogues[curentDialogue].Sentences[curentSentence],
+                                    0);
+        }
     }
 }

@@ -21,14 +21,17 @@ MonoBehaviour:
     - "Nolie vit dans une maison avec sa famille, il joue actuellement avec mon cher
       S\xE9dos, un bon ami de Nolie.\r"
     playAnim: 0
+    waitingTime: 0
   - speaker: Nolie
     Sentences:
     - "Et apr\xE8s le M\xE9gasorus il arrive et il crie RAAAAAAAAAAARGH et..."
     playAnim: 0
+    waitingTime: 3
   - speaker: Hator
     Sentences:
     - NOLIE ? TU VIENS POSER L'ETOILE EN HAUT DU SAPIN ?!
     playAnim: 0
+    waitingTime: 0
   - speaker: Nolie
     Sentences:
     - J'arrive papa !
@@ -37,11 +40,13 @@ MonoBehaviour:
 '
     - "S\xE9dos ! Je trouve pas l\u2019\xE9toile !\r"
     playAnim: 0
+    waitingTime: 0
   - speaker: "S\xE9dos"
     Sentences:
     - "Comment \xE7a ? Elle est toujours rang\xE9e dans le coffre d\u2019habitude
       !\r"
     playAnim: 0
+    waitingTime: 0
   kigurumiChoice: 0
   options: []
   nextNodes:
