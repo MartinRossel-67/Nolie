@@ -12,10 +12,12 @@ public class UiHandler : MonoBehaviour
     [SerializeField] private GameObject curentSpeaker;
 
     [Space(10)]
-    [SerializeField] private Canvas narrativeCanvas;
+    [SerializeField] private GameObject narrativeCanvas;
 
+    [SerializeField] private Text speakerTextField;
     [SerializeField] private Text dialogueTextField;
     [SerializeField] private Canvas dialogueCanvas;
+
     [SerializeField] private Text option1TextField, option2TextField;
     [SerializeField] private Canvas optionsCanvas;
 
@@ -42,14 +44,15 @@ public class UiHandler : MonoBehaviour
     {
         if (_speaker != curentSpeaker.name)
         {
+            speakerTextField.text = _speaker;
             curentSpeaker.GetComponentInParent<Image>().color = notSpeakingColor;
 
             foreach (GameObject character in characters)
             {
                 if (character.name == _speaker)
                 {
-                    character.GetComponentInParent<Image>().color = new Color(1, 1, 1);
                     curentSpeaker = character;
+                    character.GetComponentInParent<Image>().color = new Color(1, 1, 1);
                     break;
                 }
             }
@@ -66,9 +69,9 @@ public class UiHandler : MonoBehaviour
         if (waitingTime > 0)
         {
             isWaiting = true;
-            narrativeCanvas.enabled = false;
-            yield return new WaitForSeconds(waitingTime);
-            narrativeCanvas.enabled = true;
+            narrativeCanvas.SetActive(false);
+            yield return new WaitForSeconds(waitingTime); 
+            narrativeCanvas.SetActive(true);
             isWaiting = false;
         }
 
