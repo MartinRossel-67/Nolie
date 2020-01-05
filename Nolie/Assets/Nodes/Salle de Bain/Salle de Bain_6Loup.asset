@@ -18,7 +18,7 @@ MonoBehaviour:
     Sentences:
     - "Super ! Je peux nager jusqu\u2019\xE0 l\u2019\xE9pave !"
     playAnim: 0
-    waitingTime: 0
+    waitingTime: 2
   kigurumiChoice: 0
   options: []
   nextNodes:

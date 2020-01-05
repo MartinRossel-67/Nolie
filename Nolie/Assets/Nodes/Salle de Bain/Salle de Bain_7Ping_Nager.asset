@@ -19,7 +19,8 @@ MonoBehaviour:
     - 'Je vais nager !
 
 '
-    playAnim: 1
+    playAnim: 0
+    waitingTime: 0
   kigurumiChoice: 0
   options: []
   nextNodes:

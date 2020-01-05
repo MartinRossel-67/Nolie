@@ -116,7 +116,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 9189262743538295924}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: SelecteOption
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5977960919450915083
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,7 +166,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -35}
-  m_SizeDelta: {x: 700, y: 70}
+  m_SizeDelta: {x: 680, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &8544106831964851622
 Canvas:
@@ -312,12 +323,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 5250334616025533359, guid: 82b599756d25bbb4999ec57b67e809be,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: e481a43a8808bef429465751491734d8,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82b599756d25bbb4999ec57b67e809be, type: 3}
 --- !u!224 &9189262743538295925 stripped
@@ -407,18 +412,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8053069364211211088, guid: 1c526b6b1c51f284e9adaf11e686ace5,
         type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8053069364211211088, guid: 1c526b6b1c51f284e9adaf11e686ace5,
-        type: 3}
       propertyPath: m_SizeDelta.x
-      value: 650
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 8053069364211211088, guid: 1c526b6b1c51f284e9adaf11e686ace5,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 50
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 8053069364211211088, guid: 1c526b6b1c51f284e9adaf11e686ace5,
         type: 3}
@@ -449,6 +449,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053069364211211089, guid: 1c526b6b1c51f284e9adaf11e686ace5,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8053069364211211091, guid: 1c526b6b1c51f284e9adaf11e686ace5,
         type: 3}

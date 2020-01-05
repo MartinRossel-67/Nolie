@@ -17,7 +17,8 @@ MonoBehaviour:
   - speaker: Nolie
     Sentences:
     - "C\u2019est partiii !"
-    playAnim: 1
+    playAnim: 0
+    waitingTime: 2
   kigurumiChoice: 0
   options: []
   nextNodes:

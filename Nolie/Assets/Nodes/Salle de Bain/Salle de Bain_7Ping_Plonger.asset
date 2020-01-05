@@ -17,7 +17,8 @@ MonoBehaviour:
   - speaker: Nolie
     Sentences:
     - Je vais plonger !
-    playAnim: 1
+    playAnim: 0
+    waitingTime: 0
   kigurumiChoice: 0
   options: []
   nextNodes:
