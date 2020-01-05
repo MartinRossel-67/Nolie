@@ -14,9 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
+  - speaker: "S\xE9dos"
+    Sentences:
+    - WAAAAAAAAAAAAAAH !
+    - "IL EST G\xC9AAAAAANT !!!\r\n"
+    playAnim: 0
   - speaker: Nolie
     Sentences:
-    - Salon_13
+    - "Faut que je monte tout \xE7a ?"
+    playAnim: 0
+  - speaker: Narrateur
+    Sentences:
+    - "Nolie tu arrives sur ta derni\xE8re \xE9preuve\u2026"
+    - "...c\u2019est le moment ou jamais.\r\n"
     playAnim: 0
   kigurumiChoice: 1
   options: []

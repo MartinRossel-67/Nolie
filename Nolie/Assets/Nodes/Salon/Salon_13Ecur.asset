@@ -16,11 +16,12 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Ecureuil
+    - "C\u2019est la derni\xE8re ligne droite !\r\n"
+    playAnim: 0
   kigurumiChoice: 0
   options:
-  - Grimper
-  - Sauter
+  - Grimper au tronc
+  - Sauter de branche en branche
   nextNodes:
   - {fileID: 11400000, guid: 65b9c536f68fa0947980c6eb9cedd8f7, type: 2}
   - {fileID: 11400000, guid: 5fe63c09aa30e8d4ea3e5a7b78d97390, type: 2}

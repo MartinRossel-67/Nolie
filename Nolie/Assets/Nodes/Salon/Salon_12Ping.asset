@@ -16,11 +16,12 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Ping
+    - C'est parti !
+    playAnim: 0
   kigurumiChoice: 0
   options:
   - Nager
-  - Glisser
+  - Glisser sur la glace
   nextNodes:
   - {fileID: 11400000, guid: 40149ca75822a50438f749e9a70b3e6b, type: 2}
   - {fileID: 11400000, guid: d0773ea3f9d5057409eea233cdc9b342, type: 2}

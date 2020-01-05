@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: Salon_13bis
   m_EditorClassIdentifier: 
   newSceneName: 
-  dialogues: []
+  dialogues:
+  - speaker: Nolie
+    Sentences:
+    - JE VAIS Y ARRIVER !
+    - "S\xC9DOS MES KIGURUMIS !\r\n"
+    playAnim: 0
   kigurumiChoice: 1
   options: []
   nextNodes:

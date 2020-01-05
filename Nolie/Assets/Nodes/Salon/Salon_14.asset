@@ -14,9 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
+  - speaker: "S\xE9dos"
+    Sentences:
+    - "Encore une fois tu as r\xE9ussi !"
+    - "Super Nolie !\r\n"
+    playAnim: 0
   - speaker: Nolie
     Sentences:
-    - Salon 14
+    - "Nolie passe maintenant la porte du monde imaginaire\u2026 \r\n"
+    playAnim: 0
   kigurumiChoice: 0
   options: []
   nextNodes:

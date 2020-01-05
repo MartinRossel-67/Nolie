@@ -16,11 +16,12 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Loup
+    - "C\u2019est la derni\xE8re ligne droite !\r\n"
+    playAnim: 0
   kigurumiChoice: 0
   options:
-  - Sauter
-  - Grimper
+  - Sauter de branche en branche
+  - Grimper au tronc
   nextNodes:
   - {fileID: 11400000, guid: a8275ba4a77bcc341a8d1961ed58cbf3, type: 2}
   - {fileID: 11400000, guid: 3ff614e3738db83468f24bf5acd4f31d, type: 2}

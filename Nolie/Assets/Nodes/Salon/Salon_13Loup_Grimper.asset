@@ -16,7 +16,7 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Grimper
+    - Je vais essayer de grimper au tronc !
     playAnim: 0
   kigurumiChoice: 0
   options: []

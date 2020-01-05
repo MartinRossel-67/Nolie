@@ -16,7 +16,8 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Grimper
+    - Je vais grimper !
+    playAnim: 0
   kigurumiChoice: 0
   options: []
   nextNodes:

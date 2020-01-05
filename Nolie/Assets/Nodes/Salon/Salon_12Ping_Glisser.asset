@@ -16,7 +16,8 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Glisser
+    - Viooooum j'vais glisser!
+    playAnim: 0
   kigurumiChoice: 0
   options: []
   nextNodes:

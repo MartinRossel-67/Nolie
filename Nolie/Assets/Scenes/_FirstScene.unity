@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1567,7 +1567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   kigurumis: {fileID: 2099009131}
-  firstNode: {fileID: 11400000, guid: 8d6935ef4a4c3ed48ba029d467fe50f3, type: 2}
+  firstNode: {fileID: 11400000, guid: 8a757f6be5fa0b94881a95e06e6fa989, type: 2}
   timeBeforeHelp: 5
 --- !u!114 &1255899793
 MonoBehaviour:

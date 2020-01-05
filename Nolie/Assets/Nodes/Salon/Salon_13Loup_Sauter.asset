@@ -16,7 +16,8 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Salon 11
+    - Je peux y arriver en sautant de branche en branche !
+    playAnim: 0
   kigurumiChoice: 0
   options: []
   nextNodes:

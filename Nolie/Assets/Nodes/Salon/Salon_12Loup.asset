@@ -16,7 +16,8 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Loup
+    - C'est parti !
+    playAnim: 0
   kigurumiChoice: 0
   options:
   - Marcher sur la galce

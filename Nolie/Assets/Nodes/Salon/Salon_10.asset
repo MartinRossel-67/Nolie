@@ -16,7 +16,13 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Salon 10
+    - "Je commence \xE0 y prendre go\xFBt.\r\n"
+    - "C\u2019est parti direction le grand sapin !\r\n"
+    playAnim: 0
+  - speaker: "S\xE9dos"
+    Sentences:
+    - "Tu sais ce qu\u2019il te reste \xE0 faire\u2026 \r\n"
+    playAnim: 0
   kigurumiChoice: 0
   options: []
   nextNodes:

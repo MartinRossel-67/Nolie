@@ -16,9 +16,8 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - 'NAger
-
-'
+    - Je vais nager sous la glace !
+    playAnim: 0
   kigurumiChoice: 0
   options: []
   nextNodes:

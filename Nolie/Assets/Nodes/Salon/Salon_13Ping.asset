@@ -16,7 +16,7 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Ping
+    - Hmmmm... Je vais faire ce que je peux...
     playAnim: 0
   kigurumiChoice: 0
   options: []

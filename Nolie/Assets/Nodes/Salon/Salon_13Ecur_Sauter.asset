@@ -16,7 +16,8 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Sauter
+    - Je peux y arriver en sautant
+    playAnim: 0
   kigurumiChoice: 0
   options: []
   nextNodes:

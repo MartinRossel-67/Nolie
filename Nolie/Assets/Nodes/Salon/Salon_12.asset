@@ -14,9 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
-  - speaker: Nolie
+  - speaker: Narrateur
     Sentences:
-    - Salon_12
+    - "Il est l\u2019heure des kigu\u2026\r\n"
+    playAnim: 0
+  - speaker: "S\xE9dos"
+    Sentences:
+    - "Non tais-toi c\u2019est moi qui prend le relais !\r\n"
+    - "Nolie c\u2019est l\u2019heure des kigurumis !\r\n"
+    playAnim: 0
   kigurumiChoice: 1
   options: []
   nextNodes:
