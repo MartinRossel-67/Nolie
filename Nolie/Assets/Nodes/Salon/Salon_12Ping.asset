@@ -18,9 +18,10 @@ MonoBehaviour:
     Sentences:
     - C'est parti !
     playAnim: 0
+    waitingTime: 0
   kigurumiChoice: 0
   options:
-  - Nager
+  - Nager sous la glace
   - Glisser sur la glace
   nextNodes:
   - {fileID: 11400000, guid: 40149ca75822a50438f749e9a70b3e6b, type: 2}

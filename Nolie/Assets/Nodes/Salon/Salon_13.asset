@@ -19,15 +19,18 @@ MonoBehaviour:
     - WAAAAAAAAAAAAAAH !
     - "IL EST G\xC9AAAAAANT !!!\r\n"
     playAnim: 0
+    waitingTime: 3
   - speaker: Nolie
     Sentences:
     - "Faut que je monte tout \xE7a ?"
     playAnim: 0
+    waitingTime: 0
   - speaker: Narrateur
     Sentences:
     - "Nolie tu arrives sur ta derni\xE8re \xE9preuve\u2026"
     - "...c\u2019est le moment ou jamais.\r\n"
     playAnim: 0
+    waitingTime: 0
   kigurumiChoice: 1
   options: []
   nextNodes:
