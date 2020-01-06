@@ -18,28 +18,34 @@ MonoBehaviour:
     Sentences:
     - "C\u2019\xE9tait pas facile mais on y est arriv\xE9 !"
     playAnim: 0
+    waitingTime: 0
   - speaker: "S\xE9dos"
     Sentences:
     - "Bien jou\xE9 Nolie !"
     playAnim: 0
+    waitingTime: 0
   - speaker: Narrateur
     Sentences:
     - "Tu vois ce n\u2019\xE9tait pas si difficile."
     playAnim: 0
+    waitingTime: 0
   - speaker: "S\xE9dos"
     Sentences:
     - "Je me sens pas en s\xE9curit\xE9 ici\u2026"
     - "le vent se l\xE8ve et les vagues sont de plus en plus fortes\u2026"
-    - "je crois qu\u2019une temp\xEAte se pr\xE9pare\r.\n"
+    - "je crois qu\u2019une temp\xEAte se pr\xE9pare\r."
     playAnim: 0
+    waitingTime: 0
   - speaker: Nolie
     Sentences:
     - "Tu as raison... J'suis pas rassur\xE9..."
     playAnim: 0
+    waitingTime: 0
   - speaker: "S\xE9dos"
     Sentences:
     - Courage Nolie ! Je sais que tu peux le faire !
     playAnim: 0
+    waitingTime: 0
   kigurumiChoice: 0
   options: []
   nextNodes:

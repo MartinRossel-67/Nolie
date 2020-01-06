@@ -56,7 +56,7 @@ MonoBehaviour:
     waitingTime: 0
   - speaker: Narrateur
     Sentences:
-    - "C\u2019est exacte, cela faisait longtemps S\xE9dos.\n"
+    - "C\u2019est exacte, cela faisait longtemps S\xE9dos."
     - "Mais si je suis l\xE0 aujourd\u2019hui c\u2019est pour conter ton histoire
       Nolie\r."
     playAnim: 0

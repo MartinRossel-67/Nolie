@@ -18,8 +18,8 @@ MonoBehaviour:
     Sentences:
     - 'Bienvenue, aujourd''hui je vais vous conter une histoire : L''histoire de Nolie'
     - "C'est un jour tr\xE8s sp\xE9cial pour Nolie, mais il ne le sait pas encore..."
-    - "Nolie vit dans une maison avec sa famille, il joue actuellement avec mon cher
-      S\xE9dos, un bon ami de Nolie.\r"
+    - Nolie vit dans une maison avec sa famille,
+    - "il joue actuellement avec mon cher S\xE9dos, un bon ami de Nolie.\r"
     playAnim: 0
     waitingTime: 0
   - speaker: Nolie
@@ -35,9 +35,7 @@ MonoBehaviour:
   - speaker: Nolie
     Sentences:
     - J'arrive papa !
-    - '...
-
-'
+    - '...'
     - "S\xE9dos ! Je trouve pas l\u2019\xE9toile !\r"
     playAnim: 0
     waitingTime: 0
