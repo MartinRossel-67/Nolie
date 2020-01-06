@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Salle de Bain_5
   m_EditorClassIdentifier: 
   newSceneName: 
+  newMusic: {fileID: 8300000, guid: de6524186a350a34da56a3d1aeee7f36, type: 3}
   dialogues:
   - speaker: Narrateur
     Sentences:

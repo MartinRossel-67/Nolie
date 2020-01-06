@@ -9,6 +9,8 @@ public class GameController : MonoBehaviour
     private UiHandler uiHandler;
     private SceneHandler sceneHandler;
     private Animator animHandler;
+    private AudioSource audioSource;
+
 
     [SerializeField] private GameObject kigurumis;
 
@@ -24,11 +26,14 @@ public class GameController : MonoBehaviour
     private bool isHelping;
 
 
-    void Start()
+    void Awake()
     {
         uiHandler = GetComponent<UiHandler>();
         sceneHandler = GetComponent<SceneHandler>();
+        audioSource = GetComponent<AudioSource>();
 
+        audioSource.clip = (firstNode.newMusic);
+        audioSource.Play();
         curentNode.SettingUp(firstNode);
         sceneHandler.LoadScene(curentNode.sceneName);
         NextSentence();
@@ -123,6 +128,13 @@ public class GameController : MonoBehaviour
     {
         curentSentence = 0;
         curentDialogue = 0;
+            Debug.Log(curentNode.music);
+
+        if (curentNode.nextNodes[index].newMusic != null)
+        {
+            audioSource.clip = curentNode.nextNodes[index].newMusic;
+            audioSource.Play();
+        }
 
         if (curentNode.nextNodes[index].newSceneName != "" && curentNode.nextNodes[index].newSceneName != curentNode.sceneName)
         {

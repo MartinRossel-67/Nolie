@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class Node
 {
     public string sceneName;
+    public AudioClip music;
 
     public Dialogue[] dialogues;    
     public bool kigurumiChoice;
@@ -21,5 +22,7 @@ public class Node
         kigurumiChoice = nodeChoices.kigurumiChoice;
         options = nodeChoices.options;
         nextNodes = nodeChoices.nextNodes;
+
+        music = nodeChoices.newMusic;
     }
 }

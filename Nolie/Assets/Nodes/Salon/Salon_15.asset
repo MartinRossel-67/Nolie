@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Salon_15
   m_EditorClassIdentifier: 
   newSceneName: 
+  newMusic: {fileID: 8300000, guid: 118a23dfc79c37b4186ba467901bff80, type: 3}
   dialogues:
   - speaker: Hator
     Sentences:

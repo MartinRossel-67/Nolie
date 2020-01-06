@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class NodeDatas : ScriptableObject
 {
     [SerializeField] public string newSceneName;
+    [SerializeField] public AudioClip newMusic;
 
     [Header("Dialogues")]
     [Space(10)]

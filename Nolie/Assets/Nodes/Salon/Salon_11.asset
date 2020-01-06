@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Salon_11
   m_EditorClassIdentifier: 
   newSceneName: 
+  newMusic: {fileID: 8300000, guid: 4322ea25231dd4643b37eeef523acf3a, type: 3}
   dialogues:
   - speaker: Nolie
     Sentences:

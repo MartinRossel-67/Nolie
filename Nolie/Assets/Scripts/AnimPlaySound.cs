@@ -16,8 +16,9 @@ public class AnimPlaySound : MonoBehaviour
     }
 
 
-    public void PlaySouds(int soundIndex)
+    public void PlaySouds(AudioClip audioClip, float volume)
     {
-        audioSource.PlayOneShot(sounds[soundIndex]);
+        audioSource.PlayOneShot(audioClip);
+        audioSource.volume = volume;
     }
 }

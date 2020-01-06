@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Salle de Bain_4
   m_EditorClassIdentifier: 
   newSceneName: Salle de Bain
+  newMusic: {fileID: 0}
   dialogues:
   - speaker: "S\xE9dos"
     Sentences:
