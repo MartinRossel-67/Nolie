@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
-  - speaker: Narrateur
+  - speaker: Nolie
     Sentences:
     - "C\u2019est le moment ou jamais !"
-    - "Je veux affronter ma peur du vertige et j\u2019ai l\u2019impression qu\u2019avec
-      l\u2019imagination je peux y arriver !\r\n"
+    - "Je veux affronter mon vertige ! Et, avec l\u2019imagination, je peux y arriver
+      !\r\n"
     playAnim: 0
+    waitingTime: 0
   kigurumiChoice: 1
   options: []
   nextNodes:

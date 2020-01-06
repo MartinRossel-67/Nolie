@@ -16,9 +16,9 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Aoooooooooouh !
+    - 
     playAnim: 0
-    waitingTime: 2
+    waitingTime: 6
   kigurumiChoice: 0
   options: []
   nextNodes:

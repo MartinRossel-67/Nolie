@@ -18,16 +18,19 @@ MonoBehaviour:
     Sentences:
     - "C\u2019est partiii !"
     playAnim: 0
+    waitingTime: 0
   - speaker: Narrateur
     Sentences:
-    - Nolie attend !
+    - Nolie attends !
     - "Tu peux traverser cette temp\xEAte de plusieurs fa\xE7ons\u2026"
     - "Un pingouin peut nager ou plonger\u2026"
     playAnim: 0
+    waitingTime: 0
   - speaker: "S\xE9dos"
     Sentences:
     - Choisi bien !
     playAnim: 0
+    waitingTime: 0
   kigurumiChoice: 0
   options:
   - Nager

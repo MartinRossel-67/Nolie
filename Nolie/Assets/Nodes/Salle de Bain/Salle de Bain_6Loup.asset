@@ -16,9 +16,9 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - "Super ! Je peux nager jusqu\u2019\xE0 l\u2019\xE9pave !"
+    - 
     playAnim: 0
-    waitingTime: 2
+    waitingTime: 3.51
   kigurumiChoice: 0
   options: []
   nextNodes:

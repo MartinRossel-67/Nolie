@@ -16,17 +16,12 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - "C\u2019\xE9tait pas facile mais on y est arriv\xE9 !"
+    - "On a r\xE9ussi !"
     playAnim: 0
     waitingTime: 0
   - speaker: "S\xE9dos"
     Sentences:
     - "Bien jou\xE9 Nolie !"
-    playAnim: 0
-    waitingTime: 0
-  - speaker: Narrateur
-    Sentences:
-    - "Tu vois ce n\u2019\xE9tait pas si difficile."
     playAnim: 0
     waitingTime: 0
   - speaker: "S\xE9dos"
@@ -38,12 +33,12 @@ MonoBehaviour:
     waitingTime: 0
   - speaker: Nolie
     Sentences:
-    - "Tu as raison... J'suis pas rassur\xE9..."
+    - "Tu as raison\u2026 J'ai peur..."
     playAnim: 0
     waitingTime: 0
   - speaker: "S\xE9dos"
     Sentences:
-    - Courage Nolie ! Je sais que tu peux le faire !
+    - Courage Nolie ! Tu peux le faire !
     playAnim: 0
     waitingTime: 0
   kigurumiChoice: 0

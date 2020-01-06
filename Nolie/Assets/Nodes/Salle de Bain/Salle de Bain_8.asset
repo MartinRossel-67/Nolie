@@ -19,24 +19,18 @@ MonoBehaviour:
     - "Bien jou\xE9 Nolie !"
     - "C\u2019est g\xE9nial le pouvoir des kigurumis !"
     playAnim: 0
+    waitingTime: 0
   - speaker: Nolie
     Sentences:
-    - "C\u2019est super fort !"
-    - "Et si je r\xE9ussi c\u2019est gr\xE2ce \xE0 mon imagination ?"
+    - "Je suis pas \xE0 l'aise ici\u2026"
+    - "Je pense\u2026avoir\u2026 le vertige\u2026\r"
     playAnim: 0
-  - speaker: "S\xE9dos"
-    Sentences:
-    - "Je te l\u2019ai dit !"
-    - "Tu peux faire beaucoup de choses gr\xE2ce \xE0 ton imagination !"
-    playAnim: 0
-  - speaker: Nolie
-    Sentences:
-    - "Je suis quand m\xEAme pas rassur\xE9\u2026 Je pense\u2026avoir\u2026 le vertige\u2026"
-    playAnim: 0
+    waitingTime: 0
   - speaker: "S\xE9dos"
     Sentences:
     - Moi je crois en toi !
     playAnim: 0
+    waitingTime: 0
   kigurumiChoice: 0
   options: []
   nextNodes:

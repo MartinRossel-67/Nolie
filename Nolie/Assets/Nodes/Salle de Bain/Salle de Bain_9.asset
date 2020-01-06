@@ -18,38 +18,38 @@ MonoBehaviour:
     Sentences:
     - "J\u2019ai r\xE9ussi !!! J\u2019ai d\xE9pass\xE9 mes peurs !"
     playAnim: 0
+    waitingTime: 0
   - speaker: "S\xE9dos"
     Sentences:
     - Je suis fier de toi !
     playAnim: 0
+    waitingTime: 0
   - speaker: Nolie
     Sentences:
     - "On a l'\xE9toile !"
     playAnim: 1
-  - speaker: "S\xE9dos"
-    Sentences:
-    - Ouiii !
-    playAnim: 0
-  - speaker: Nolie
-    Sentences:
-    - "On a r\xE9ussi !"
-    playAnim: 0
+    waitingTime: 0
   - speaker: "S\xE9dos"
     Sentences:
     - Maintenant direction le salon !
-    playAnim: 1
+    playAnim: 0
+    waitingTime: 0
   - speaker: Nolie
     Sentences:
-    - "Waaaaaah j\u2019ai travers\xE9 toute la salle de bain !"
+    - WAAAAAAAAAAH !
+    - "J\u2019ai travers\xE9 toute la salle de bain !"
     playAnim: 1
+    waitingTime: 0
   - speaker: "S\xE9dos"
     Sentences:
-    - "Et oui Nolie ! Il faut pas baisser les bras tu vois, tu y es arriv\xE9 !\r\n"
-    playAnim: 1
+    - "Et oui Nolie ! Tout \xE7a gr\xE2ce \xE0 ton imagination !"
+    playAnim: 0
+    waitingTime: 0
   - speaker: Nolie
     Sentences:
-    - "G\xE9nial ! Suis moi S\xE9dos l\u2019aventure n\u2019est pas finie !"
-    playAnim: 1
+    - "G\xE9nial ! Suis moi S\xE9dos ! L\u2019aventure n\u2019est pas finie !"
+    playAnim: 0
+    waitingTime: 0
   kigurumiChoice: 0
   options: []
   nextNodes:

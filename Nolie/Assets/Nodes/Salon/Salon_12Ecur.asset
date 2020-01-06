@@ -16,8 +16,9 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - C'est parti !
+    - 
     playAnim: 0
+    waitingTime: 9.25
   kigurumiChoice: 0
   options: []
   nextNodes:

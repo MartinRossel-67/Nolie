@@ -16,20 +16,20 @@ MonoBehaviour:
   dialogues:
   - speaker: Narrateur
     Sentences:
-    - 'Bienvenue, aujourd''hui je vais vous conter une histoire : L''histoire de Nolie'
-    - "C'est un jour tr\xE8s sp\xE9cial pour Nolie, mais il ne le sait pas encore..."
-    - Nolie vit dans une maison avec sa famille,
-    - "il joue actuellement avec mon cher S\xE9dos, un bon ami de Nolie.\r"
+    - "Bienvenue ! Aujourd\u2019hui, je vais vous conter une histoire ! L\u2019histoire
+      de Nolie."
+    - "C\u2019est un jour tr\xE8s sp\xE9cial pour Nolie. Mais, il ne le sait pas encore\u2026"
+    - "Il joue actuellement avec mon cher S\xE9dos, un bon ami de Nolie."
     playAnim: 0
     waitingTime: 0
   - speaker: Nolie
     Sentences:
-    - "Et apr\xE8s le M\xE9gasorus il arrive et il crie RAAAAAAAAAAARGH et..."
+    - "Et apr\xE8s, le M\xE9gasorus il arrive et il crie RAAAAAAARGH ! Et..."
     playAnim: 0
     waitingTime: 0
   - speaker: Hator
     Sentences:
-    - NOLIE ? TU VIENS POSER L'ETOILE EN HAUT DU SAPIN ?!
+    - "NOLIE ? TU VIENS POSER L'\xC9TOILE EN HAUT DU SAPIN ?!"
     playAnim: 0
     waitingTime: 0
   - speaker: Nolie

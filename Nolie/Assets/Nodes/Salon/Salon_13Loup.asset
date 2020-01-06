@@ -16,8 +16,9 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - "C\u2019est la derni\xE8re ligne droite !\r\n"
+    - "C\u2019est la derni\xE8re ligne droite !\r"
     playAnim: 0
+    waitingTime: 0
   kigurumiChoice: 0
   options:
   - Sauter de branche en branche

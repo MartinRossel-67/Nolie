@@ -17,8 +17,9 @@ MonoBehaviour:
   - speaker: Narrateur
     Sentences:
     - Fais attention au vent et aux vagues rapides.
-    - Choisi ton kigurumis !
+    - Choisi ton kigurumi !
     playAnim: 0
+    waitingTime: 0
   kigurumiChoice: 1
   options: []
   nextNodes:

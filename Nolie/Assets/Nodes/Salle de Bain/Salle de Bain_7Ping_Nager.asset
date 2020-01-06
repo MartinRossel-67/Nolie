@@ -16,11 +16,9 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - 'Je vais nager !
-
-'
+    - 
     playAnim: 0
-    waitingTime: 0
+    waitingTime: 6
   kigurumiChoice: 0
   options: []
   nextNodes:

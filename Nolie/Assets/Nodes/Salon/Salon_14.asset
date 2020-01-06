@@ -17,12 +17,14 @@ MonoBehaviour:
   - speaker: "S\xE9dos"
     Sentences:
     - "Encore une fois tu as r\xE9ussi !"
-    - "Super Nolie !\r\n"
+    - "Super Nolie !\r"
     playAnim: 0
-  - speaker: Nolie
+    waitingTime: 0
+  - speaker: Narrateur
     Sentences:
-    - "Nolie passe maintenant la porte du monde imaginaire\u2026 \r\n"
+    - "Nolie passe maintenant la porte du monde imaginaire\u2026"
     playAnim: 0
+    waitingTime: 0
   kigurumiChoice: 0
   options: []
   nextNodes:

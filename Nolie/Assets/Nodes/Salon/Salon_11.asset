@@ -16,20 +16,9 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - "Je commence \xE0 y prendre go\xFBt.\r\n"
-    - "C\u2019est parti direction le grand sapin !"
+    - "\xC7a glisse !"
     playAnim: 0
-  - speaker: "S\xE9dos"
-    Sentences:
-    - "ATTENTION NOLIE ! LA GLACE !\r\n"
-    playAnim: 1
-  - speaker: Nolie
-    Sentences:
-    - WOAH !!!
-    - Ouf !
-    - "Merci S\xE9dos !"
-    - "J\u2019avais pas vu toute cette glace\u2026 \xE7a glisse trop\u2026 \r\n"
-    playAnim: 0
+    waitingTime: 0
   kigurumiChoice: 0
   options: []
   nextNodes:

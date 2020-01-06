@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSceneName: 
   dialogues:
-  - speaker: Nolie
+  - speaker: 
     Sentences:
-    - "Super ! Je peux planer jusqu\u2019\xE0 l\u2019\xE9pave !"
+    - 
     playAnim: 0
-    waitingTime: 2
+    waitingTime: 2.45
   kigurumiChoice: 0
   options: []
   nextNodes:

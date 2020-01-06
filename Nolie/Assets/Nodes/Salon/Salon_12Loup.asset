@@ -18,9 +18,10 @@ MonoBehaviour:
     Sentences:
     - C'est parti !
     playAnim: 0
+    waitingTime: 0
   kigurumiChoice: 0
   options:
-  - Marcher sur la galce
+  - Marcher sur la glace
   - Sauter sur les troncs
   nextNodes:
   - {fileID: 11400000, guid: d72f405cb8ce35c4295c349f2eed6bc3, type: 2}

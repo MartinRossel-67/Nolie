@@ -16,17 +16,15 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - "Waaaah le sapin est super grand\u2026"
-    - "M\xEAme sur la pointe des pieds \xE7a sera difficile\u2026\n"
+    - "Waaaah ! Le sapin est super grand\u2026"
+    - "M\xEAme sur la pointe des pieds \xE7a sera difficile\u2026"
     playAnim: 0
+    waitingTime: 0
   - speaker: "S\xE9dos"
     Sentences:
-    - "Tu sais ce qu\u2019il te reste \xE0 faire\u2026 \n"
+    - "Tu sais ce qu\u2019il te reste \xE0 faire\u2026 "
     playAnim: 0
-  - speaker: "S\xE9dos"
-    Sentences:
-    - "Tu sais ce qu\u2019il te reste \xE0 faire\u2026 \r\n"
-    playAnim: 0
+    waitingTime: 0
   kigurumiChoice: 0
   options: []
   nextNodes:

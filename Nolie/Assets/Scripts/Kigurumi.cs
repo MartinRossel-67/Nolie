@@ -42,9 +42,9 @@ public class Kigurumi : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         {
             if (eventData.pointerEnter.gameObject.tag == "Player")
             {
-                gameController.NextNode(index);
                 gameObject.GetComponentInParent<Canvas>().enabled = false;
                 StartCoroutine(Transform(eventData.pointerEnter.gameObject));
+                gameController.NextNode(index);
             }
         }
     }

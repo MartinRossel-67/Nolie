@@ -16,8 +16,9 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - J'y vais en sautant !
+    - 
     playAnim: 0
+    waitingTime: 3
   kigurumiChoice: 0
   options: []
   nextNodes:

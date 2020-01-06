@@ -16,8 +16,9 @@ MonoBehaviour:
   dialogues:
   - speaker: Nolie
     Sentences:
-    - Je peux y arriver en sautant de branche en branche !
+    - 
     playAnim: 0
+    waitingTime: 2.4
   kigurumiChoice: 0
   options: []
   nextNodes:

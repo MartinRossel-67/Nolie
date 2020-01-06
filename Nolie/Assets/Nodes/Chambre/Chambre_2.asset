@@ -18,15 +18,15 @@ MonoBehaviour:
     Sentences:
     - "Regarde ! Un mot !\r"
     playAnim: 0
-    waitingTime: 3
-  - speaker: Sedos
+    waitingTime: 4
+  - speaker: "S\xE9dos"
     Sentences:
     - "Mince ! Il faut retrouver cette \xE9toile."
     playAnim: 1
     waitingTime: 0
   - speaker: Nolie
     Sentences:
-    - "Je sais pas o\xF9 ma soeur a pu la cacher.."
+    - "Je sais pas o\xF9 ma soeur a pu la cacher..."
     playAnim: 0
     waitingTime: 0
   - speaker: Narrateur
@@ -41,45 +41,8 @@ MonoBehaviour:
     waitingTime: 0
   - speaker: Narrateur
     Sentences:
-    - "Haha, c\u2019est moi, le narrateur !\r"
-    playAnim: 0
-    waitingTime: 0
-  - speaker: Nolie
-    Sentences:
-    - Le narrateur ?
-    playAnim: 0
-    waitingTime: 0
-  - speaker: "S\xE9dos"
-    Sentences:
-    - "C\u2019est un tr\xE8s vieil ami \xE0 moi."
-    playAnim: 0
-    waitingTime: 0
-  - speaker: Narrateur
-    Sentences:
-    - "C\u2019est exacte, cela faisait longtemps S\xE9dos."
-    - "Mais si je suis l\xE0 aujourd\u2019hui c\u2019est pour conter ton histoire
-      Nolie\r."
-    playAnim: 0
-    waitingTime: 0
-  - speaker: Nolie
-    Sentences:
-    - "Je comprends pas\u2026 Je te vois pas !"
-    playAnim: 0
-    waitingTime: 0
-  - speaker: Narrateur
-    Sentences:
-    - "Disons que je ne suis pas vraiment l\xE0\u2026"
-    playAnim: 0
-    waitingTime: 0
-  - speaker: "S\xE9dos"
-    Sentences:
-    - Tu fais quoi ici ?
-    playAnim: 0
-    waitingTime: 0
-  - speaker: Narrateur
-    Sentences:
-    - "Je vous l\u2019ai dit, je viens raconter l\u2019histoire de Nolie. Je vais
-      l\u2019aider dans sa qu\xEAte\r !\n"
+    - "Haha ! C\u2019est moi ! Le narrateur !"
+    - "Je viens t\u2019aider dans ta qu\xEAte."
     playAnim: 0
     waitingTime: 0
   - speaker: Nolie
@@ -89,7 +52,7 @@ MonoBehaviour:
     waitingTime: 0
   - speaker: Narrateur
     Sentences:
-    - "Ah bon ? Pourtant je sais o\xF9 se trouve l\u2019\xE9toile..."
+    - "Ah bon ? Pourtant, je sais o\xF9 se trouve l\u2019\xE9toile..."
     playAnim: 0
     waitingTime: 0
   - speaker: Nolie
@@ -99,13 +62,13 @@ MonoBehaviour:
     waitingTime: 0
   - speaker: Narrateur
     Sentences:
-    - Avant de commencer, voici tes Kigurumis pour ton aventure.
+    - Avant de commencer, voici tes kigurumis pour ton aventure.
     playAnim: 0
     waitingTime: 0
   - speaker: Nolie
     Sentences:
-    - "Un loup, un pingouin et..un \xE9cureuil volant ? Je vois pas en quoi \xE7a
-      pourrait m\u2019\xEAtre utile!\r\n"
+    - "Un loup, un \xE9cureuil volant et..un pingouin ?"
+    - "Je vois pas en quoi \xE7a pourrait m\u2019\xEAtre utile !"
     playAnim: 1
     waitingTime: 3
   kigurumiChoice: 0

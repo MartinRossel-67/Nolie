@@ -17,8 +17,9 @@ MonoBehaviour:
   - speaker: Nolie
     Sentences:
     - JE VAIS Y ARRIVER !
-    - "S\xC9DOS MES KIGURUMIS !\r\n"
+    - "S\xC9DOS MES KIGURUMIS !\r"
     playAnim: 0
+    waitingTime: 0
   kigurumiChoice: 1
   options: []
   nextNodes:

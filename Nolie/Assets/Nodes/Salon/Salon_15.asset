@@ -16,36 +16,44 @@ MonoBehaviour:
   dialogues:
   - speaker: Hator
     Sentences:
-    - "Viiiioum ! Bien jou\xE9 Nolie !\r\n"
+    - "Viiiioum ! Bien jou\xE9 Nolie !\r"
     playAnim: 0
+    waitingTime: 0
   - speaker: Mia
     Sentences:
-    - "Comment t\u2019as retrouv\xE9 l\u2019\xE9tooile ?\r\n"
+    - "Comment t\u2019as retrouv\xE9 l\u2019\xE9tooile ?"
     playAnim: 0
+    waitingTime: 0
   - speaker: Nolie
     Sentences:
-    - "C\u2019est gr\xE2ce au monsieur qui me parlait et \xE0 S\xE9dos !\r\n"
+    - "C\u2019est gr\xE2ce au monsieur qui me parlait ! Et aussi \xE0 S\xE9dos !\r"
     playAnim: 0
+    waitingTime: 0
   - speaker: Mia
     Sentences:
     - "S\xE9dos ?"
     playAnim: 0
+    waitingTime: 0
   - speaker: Nolie
     Sentences:
-    - "Oui S\xE9dos ! Il est juste l\xE0 !\r\n"
+    - "Oui S\xE9dos ! Il est juste l\xE0 !\r"
     playAnim: 0
+    waitingTime: 0
   - speaker: "S\xE9dos"
     Sentences:
-    - "Euuuh\u2026 Je ne crois pas qu\u2019elle puisse me voir\r\n"
+    - "Euuuh\u2026 Je ne crois pas qu\u2019elle puisse me voir\r"
     playAnim: 0
+    waitingTime: 0
   - speaker: Mia
     Sentences:
-    - "T\u2019es bizarre comme fr\xE8re\r\n"
+    - "T\u2019es bizarre comme fr\xE8re..."
     playAnim: 0
+    waitingTime: 0
   - speaker: Hator
     Sentences:
-    - "Haha ! Peu importe je suis fier de toi mon fils !\r\n"
+    - "Haha ! Peu importe je suis fier de toi mon fils !\r"
     playAnim: 0
+    waitingTime: 0
   - speaker: Narrateur
     Sentences:
     - "C\u2019est ainsi que se cl\xF4t le conte de Nolie."
@@ -53,8 +61,9 @@ MonoBehaviour:
       r\xE9ussi \xE0 toutes les d\xE9passer."
     - "Sacr\xE9 Nolie\u2026 il a une imagination d\xE9bordante\u2026"
     - " Merci cher joueur d\u2019avoir aid\xE9 Nolie dans son aventure."
-    - "Il est maintenant temps de nous dire au revoir. Nolie te remercie.\r\n"
+    - "Il est maintenant temps de nous dire au revoir. Nolie te remercie.\r"
     playAnim: 0
+    waitingTime: 0
   kigurumiChoice: 0
   options: []
   nextNodes: []

@@ -70,19 +70,27 @@ public class UiHandler : MonoBehaviour
         {
             isWaiting = true;
             narrativeCanvas.SetActive(false);
-            yield return new WaitForSeconds(waitingTime); 
+            yield return new WaitForSeconds(waitingTime);
             narrativeCanvas.SetActive(true);
             isWaiting = false;
         }
 
-        isTyping = true;
-        _textField.text = "";
-        foreach (char letter in sentence.ToCharArray())
+
+        if (sentence.ToCharArray().Length != 0)
         {
-            yield return new WaitForSeconds(1 / typeSpeed);
-            _textField.text += letter;
+            isTyping = true;
+            _textField.text = "";
+            foreach (char letter in sentence.ToCharArray())
+            {
+                yield return new WaitForSeconds(1 / typeSpeed);
+                _textField.text += letter;
+            }
+            isTyping = false;
         }
-        isTyping = false;
+        else
+        {
+            gameController.NextSentence();
+        }
     }
 
 
