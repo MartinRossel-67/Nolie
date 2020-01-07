@@ -25,6 +25,8 @@ public class GameController : MonoBehaviour
     private float timeSinceLastInput;
     private bool isHelping;
 
+    private static bool gameStarted;
+
 
     void Awake()
     {
@@ -32,11 +34,7 @@ public class GameController : MonoBehaviour
         sceneHandler = GetComponent<SceneHandler>();
         audioSource = GetComponent<AudioSource>();
 
-        audioSource.clip = (firstNode.newMusic);
-        audioSource.Play();
         curentNode.SettingUp(firstNode);
-        sceneHandler.LoadScene(curentNode.sceneName);
-        NextSentence();
     }
 
 
@@ -46,7 +44,7 @@ public class GameController : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            if (!uiHandler.isWaiting)
+            if (!uiHandler.isWaiting && gameStarted)
             {
                 if (uiHandler.isTyping)
                 {
@@ -57,6 +55,13 @@ public class GameController : MonoBehaviour
                     NextSentence();
                 }
                 timeSinceLastInput = 0;
+            }
+            else
+            {
+                if (!gameStarted)
+                {
+                    StartGame();
+                }
             }
         }
 
@@ -74,6 +79,17 @@ public class GameController : MonoBehaviour
         }
     }
 
+    public void StartGame()
+    {
+        Debug.Log("StartGame");
+        gameStarted = true;
+        audioSource.clip = (firstNode.newMusic);
+        audioSource.Play();
+        uiHandler.narrativeCanvas.SetActive(true);
+        sceneHandler.LoadScene(curentNode.sceneName);
+
+        NextSentence();
+    }
 
     public void NextSentence()
     {
@@ -128,7 +144,7 @@ public class GameController : MonoBehaviour
     {
         curentSentence = 0;
         curentDialogue = 0;
-            Debug.Log(curentNode.music);
+        Debug.Log(curentNode.music);
 
         if (curentNode.nextNodes[index].newMusic != null)
         {

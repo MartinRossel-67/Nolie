@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Salle de Bain_7Ping
   m_EditorClassIdentifier: 
   newSceneName: 
+  newMusic: {fileID: 0}
   dialogues:
   - speaker: Nolie
     Sentences:
@@ -28,7 +29,7 @@ MonoBehaviour:
     waitingTime: 0
   - speaker: "S\xE9dos"
     Sentences:
-    - Choisi bien !
+    - Choisis bien !
     playAnim: 0
     waitingTime: 0
   kigurumiChoice: 0

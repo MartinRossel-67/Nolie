@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Salle de Bain_7bis
   m_EditorClassIdentifier: 
   newSceneName: 
+  newMusic: {fileID: 0}
   dialogues:
   - speaker: Narrateur
     Sentences:
     - Fais attention au vent et aux vagues rapides.
-    - Choisi ton kigurumi !
+    - Choisis ton kigurumi !
     playAnim: 0
     waitingTime: 0
   kigurumiChoice: 1

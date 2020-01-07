@@ -13,16 +13,19 @@ MonoBehaviour:
   m_Name: Chambre_2Ping
   m_EditorClassIdentifier: 
   newSceneName: 
+  newMusic: {fileID: 0}
   dialogues:
   - speaker: Nolie
     Sentences:
     - Je suis un pingouin !
     playAnim: 0
+    waitingTime: 0
   - speaker: Narrateur
     Sentences:
     - "A toi les capacit\xE9s du pingouin !"
-    - Maintenant choisi ce que tu veux faire !
+    - Maintenant choisis ce que tu veux faire !
     playAnim: 0
+    waitingTime: 0
   kigurumiChoice: 0
   options:
   - "Allons r\xE9cup\xE9rer l'\xE9toile !"

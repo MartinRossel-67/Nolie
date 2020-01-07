@@ -12,7 +12,7 @@ public class UiHandler : MonoBehaviour
     [SerializeField] private GameObject curentSpeaker;
 
     [Space(10)]
-    [SerializeField] private GameObject narrativeCanvas;
+    [SerializeField] public GameObject narrativeCanvas;
 
     [SerializeField] private Text speakerTextField;
     [SerializeField] private Text dialogueTextField;
